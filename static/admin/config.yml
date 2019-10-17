@@ -100,7 +100,7 @@ collections:
         label: "What We Do"
         name: "whatwedo"
         fields:
-          - { label: "Template Key", name: "whatwedo", widget: "hidden", default: "what-we-do" }
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "what-we-do" }
           - {
               label: Whats,
               name: whats,
