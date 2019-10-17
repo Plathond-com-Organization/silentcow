@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from '../components/Layout'
 
-const WhatWeDo = () => {
+const WhatWeDoTemplate = () => {
   return (
     <Layout>
       <section class="container py-20">
@@ -26,4 +26,4 @@ const WhatCardItem = ({ cardNum = 1, cardText = "Lorem ipsum dolor sit, amet con
   )
 }
 
-export default WhatWeDo
+export default WhatWeDoTemplate

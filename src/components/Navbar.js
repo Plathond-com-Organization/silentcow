@@ -22,7 +22,7 @@ const Navbar = () => {
     },
     {
       name: "What We Do",
-      href: "/whatWeDo",
+      href: "/whatwedo",
     },
 
   ]

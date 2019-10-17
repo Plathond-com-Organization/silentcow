@@ -9,8 +9,8 @@ const Hero = ({ heading="", subheading="", imageFluid }) => {
       fluid={imageFluid}
     >
       <div className="container flex flex-col justify-center items-center min-h-48 leading-tight">
-        { heading.length > 0 && ( <h1 className="font-bold text-5xl shadow-lg bg-red-700 text-white py-4 px-5 rounded border border-red-900">{heading}</h1> ) }
-        { subheading.length>0 && ( <h3 className="p-3 rounded-lg border-2 border-red-900 mt-5 bg-red-700 text-white shadow-lg text-2xl font-bold">{subheading}</h3> ) }
+        { heading.length > 0 && ( <h1 className="font-bold text-5xl shadow-lg bg-custom-red text-white py-4 px-5 rounded border border-red-900">{heading}</h1> ) }
+        { subheading.length>0 && ( <h3 className="p-3 rounded-lg border-2 border-red-900 mt-5 bg-custom-red text-white shadow-lg text-2xl font-bold">{subheading}</h3> ) }
       </div>
     </BackgroundImage>
   )

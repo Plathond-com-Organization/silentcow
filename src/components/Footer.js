@@ -31,7 +31,7 @@ const Footer = () => {
     },
   ]
   return (
-    <footer className="bg-green-900 py-20">
+    <footer className="bg-custom-darkgray py-20">
       <div className="container flex justify-between">
         <div className="w-1/3 flex flex-col text-white">
           {links.map(link => (

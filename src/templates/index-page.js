@@ -15,10 +15,10 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
       <Hero imageFluid={image.childImageSharp.fluid} heading={title} subheading={subheading}></Hero>
     </section>
 
-    <section id="home-intro" className="container leading-tight pt-32 pb-16">
+    <section id="home-intro" className="container leading-tight pt-32 pb-10">
       <div>
         <h4 className="text-4xl font-bold">{mainpitch.title}</h4>
-        <p className="mt-4 text-2xl font-bold">{mainpitch.description}</p>
+        <p className="mt-4 text-xl font-bold">{mainpitch.description}</p>
       </div>
       <div>
         <h2 className="mt-8 text-5xl font-bold">{heading}</h2>
@@ -26,7 +26,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
       </div>
     </section>
 
-    <section id="home-products" className="container flex flex-col py-10">
+    <section id="home-products" className="container flex flex-col pb-10">
       <Features gridItems={intro.blurbs} />
       <Link className="mt-5 btn self-center" to="/products">
         See all products

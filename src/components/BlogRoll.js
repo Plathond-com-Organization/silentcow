@@ -9,11 +9,11 @@ const BlogRoll = ({ data }) => {
   return (
     <div className="flex flex-wrap justify-between -mx-3">
       {posts.map(post => (
-        <div className="md:w-1/2 px-3 mb-3">
-          <div className="bg-green-200 my-2 p-5 rounded-lg">
+        <div className="md:w-1/2 px-3 mb-6">
+          <div className="bg-gray-200 shadow-md hover:shadow-xl border flex flex-col h-full my-2 p-8 rounded-lg">
             <h1 className="text-2xl font-bold">{post.frontmatter.title}</h1>
-            <p className="my-3">{post.excerpt}</p>
-            <Link to={post.fields.slug} className="inline-block rounded border border-gray-300 bg-gray-100 p-2">
+            <p className="mt-3 mb-5">{post.excerpt}</p>
+            <Link to={post.fields.slug} className="self-start mt-auto btn">
               Keep Reading <i className="fas fa-arrow-right"></i>
             </Link>
           </div>
