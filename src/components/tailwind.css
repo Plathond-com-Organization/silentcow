@@ -23,6 +23,18 @@
   @apply bg-custom-red text-white;
 }
 
+.tr-fast {
+  transition: all 200ms linear;
+}
+
+.tr-med {
+  transition: all 400ms linear;
+}
+
+.tr-slow {
+  transition: all 600ms linear;
+}
+
 .container {
   @apply px-5;
 }

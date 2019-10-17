@@ -8,11 +8,18 @@ import Layout from "../components/Layout"
 import Features from "../components/Features"
 import BlogRoll from "../components/BlogRoll"
 import Hero from "../components/misc/Hero"
+import { WhatCardItem } from '../templates/what-we-do'
 
-export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro }) => (
+export const IndexPageTemplate = ({ whats, image, title, heading, subheading, mainpitch, description, intro }) => (
   <div className="home-page">
     <section id="home-hero">
       <Hero imageFluid={image.childImageSharp.fluid} heading={title} subheading={subheading}></Hero>
+    </section>
+
+    <section class="container flex mt-20">
+      {whats.map(( what, index ) => (
+        <WhatCardItem cardNum={index+1} cardText={what.title}></WhatCardItem>
+      ))}
     </section>
 
     <section id="home-intro" className="container leading-tight pt-32 pb-10">
@@ -57,6 +64,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+  const whats = data.whats.frontmatter.whats
 
   return (
     <Layout>
@@ -68,6 +76,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        whats={whats}
       />
     </Layout>
   )
@@ -76,6 +85,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+    whats: PropTypes.shape({
       frontmatter: PropTypes.object,
     }),
   }),
@@ -91,7 +103,7 @@ export const pageQuery = graphql`
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
@@ -115,6 +127,17 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+      }
+    }
+    whats: markdownRemark(frontmatter: { templateKey: { eq: "what-we-do" } }) {
+      frontmatter {
+        whats {
+          title
+          description
+          image {
+            absolutePath
+          }
         }
       }
     }
