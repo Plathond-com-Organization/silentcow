@@ -1,7 +1,5 @@
 ---
-templateKey: 'what-we-do'
-path: /whatwedo
----
+templateKey: what-we-do
 whats:
   - description: >-
       We deliver our fine tuned Problem Solving workshop as as educational team
@@ -13,7 +11,7 @@ whats:
       One of our experts will come to you and run an hour and a half session in
       which a series of exercises and tests that will make a team think. What
       they learn as a group will translate to their own very intricately
-      different puzzles.    
+      different puzzles.
 
 
       Every participant leaves not only awakened to their own ability to step
@@ -21,30 +19,9 @@ whats:
       allow them to easily complete our 5 level cube solving tutorials.
 
 
-      Get in touch at moo@silentcow.co.uk​
+      Get in touch at moo@silentcow.co.uk​image: /img/meeting.webp title:
+      Corporate Training and Team Building
     image: /img/meeting.webp
     title: Corporate Training and Team Building
-  - description: >-
-      Learn how to speed cube with the 5 level training programme!
-
-
-      Our philosophy is to engage your muscle memory from the start of your
-      cubing journey which means you will learn fast, improve fast and
-      ultimately solve fast. 
-
-
-      As the training videos progress - REWIND, PRACTICE, PAUSE and PLAY at your
-      own pace to let the method settle in your head and hands. Earn your
-      stickers and put them on your box when you are ready to move forward.
-
-
-      Its sensible to do this course over a couple of weeks that way your hands
-      will retain what you have learned and you will be able to solve reliably
-      for years to come!
-    image: /img/level.webp
-    title: Our 5 Level Training Programme
-  - description: Purchase from one of our kits.
-    image: /img/dsc_1026.jpg
-    title: Products
 ---
 
