@@ -1,7 +1,7 @@
 backend:
-  # name: test-repo
-  name: git-gateway
-  branch: master
+  name: test-repo
+  # name: git-gateway
+  # branch: master
 
 media_folder: static/img
 public_folder: /img
@@ -96,6 +96,22 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/whatwedo/index.md"
+        label: "What We Do"
+        name: "whatwedo"
+        fields:
+          - { label: "Template Key", name: "whatwedo", widget: "hidden", default: "what-we-do" }
+          - {
+              label: Whats,
+              name: whats,
+              widget: list,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                  { label: Image, name: image, widget: image },
+                ],
+            }
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

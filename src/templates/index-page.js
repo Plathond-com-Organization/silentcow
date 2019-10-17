@@ -106,7 +106,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 640, maxHeight: 480, quality: 75) {
+                fluid(maxWidth: 640, quality: 75) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
