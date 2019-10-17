@@ -7,7 +7,7 @@ import "../styles/index.css"
 import Layout from "../components/Layout"
 import Features from "../components/Features"
 import BlogRoll from "../components/BlogRoll"
-import Hero from '../components/misc/Hero'
+import Hero from "../components/misc/Hero"
 
 export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro }) => (
   <div className="home-page">
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
@@ -106,8 +106,8 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
+                fluid(maxWidth: 640, maxHeight: 480, quality: 75) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }
