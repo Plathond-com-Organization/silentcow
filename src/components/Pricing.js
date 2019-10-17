@@ -1,26 +1,20 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
 const Pricing = ({ data }) => (
-  <div className="columns">
+  <div className="flex flex-wrap my-20">
     {data.map(price => (
-      <div key={price.plan} className="column">
-        <section className="section">
-          <h4 className="has-text-centered has-text-weight-semibold">
-            {price.plan}
-          </h4>
-          <h2 className="is-size-1 has-text-weight-bold has-text-primary has-text-centered">
-            ${price.price}
-          </h2>
-          <p className="has-text-weight-semibold">{price.description}</p>
-          <ul>
-            {price.items.map(item => (
-              <li key={item} className="is-size-5">
-                {item}
-              </li>
-            ))}
-          </ul>
-        </section>
+      <div className="px-10 flex flex-col items-center mb-32 md:mb-0 md:w-1/3">
+        <h4 className="text-xl font-bold">{price.plan}</h4>
+        <h2 class="my-10 text-5xl font-bold text-red-500">${price.price}</h2>
+        <p class="text-lg self-start my-5 font-bold">{price.description}</p>
+        <ul class="ml-10 self-start list-disc list-outside">
+          {price.items.map(item => (
+            <li key={item} className="text-xl">
+              {item}
+            </li>
+          ))}
+        </ul>
       </div>
     ))}
   </div>

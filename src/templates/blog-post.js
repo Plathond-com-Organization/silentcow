@@ -1,46 +1,32 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
+import React from "react"
+import PropTypes from "prop-types"
+import { kebabCase } from "lodash"
+import Helmet from "react-helmet"
+import { graphql, Link } from "gatsby"
+import Layout from "../components/Layout"
 import Content, { HTMLContent } from '../components/Content'
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet,
-}) => {
+export const BlogPostTemplate = ({ content, contentComponent, description, tags, title, helmet }) => {
   const PostContent = contentComponent || Content
-
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+    <section>
+      {helmet || ""}
+      <div className="container pt-10 pb-16">
+        <h1 className="text-5xl font-bold">{title}</h1>
+        <p className="my-3">{description}</p>
+        <PostContent content={content} />
+        {tags && tags.length ? (
+          <div style={{ marginTop: `4rem` }}>
+            <h4 class="text-xl font-bold mb-5">Tags</h4>
+            <ul className="flex">
+              {tags.map(tag => (
+                <li className="mr-4 text-blue-500" key={tag + `tag`}>
+                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
+        ) : null}
       </div>
     </section>
   )
@@ -66,10 +52,7 @@ const BlogPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
+            <meta name="description" content={`${post.frontmatter.description}`} />
           </Helmet>
         }
         tags={post.frontmatter.tags}
