@@ -1,4 +1,7 @@
 ---
+templateKey: 'what-we-do'
+path: /whatwedo
+---
 whats:
   - description: >-
       We deliver our fine tuned Problem Solving workshop as as educational team
