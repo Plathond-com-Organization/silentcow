@@ -48,7 +48,7 @@ const ProductList = ({ productItems }) => {
       <h3 className="mb-10 text-5xl font-bold text-center">Our Products</h3>
       <div className="flex justify-around flex-wrap">
         {productItems.map(product => (
-          <div className="w-full lg:w-5/12 border-4 border-custom-blue bg-custom-blue text-white mx-2 shadow-lg hover:shadow-xl rounded-lg overflow-hidden tr-fast">
+          <div className="mb-5 w-full lg:w-5/12 border-4 border-custom-blue bg-custom-blue text-white mx-2 shadow-lg hover:shadow-xl rounded-lg overflow-hidden tr-fast">
             <Img className="h-96" imgStyle={{ padding: "2rem", background: "white" }} fluid={product.productImage.childImageSharp.fluid}></Img>
             <div className="my-10 p-5 flex flex-col items-center">
               <span className="text-5xl text-custom-navyblue font-bold">{product.price}</span>
