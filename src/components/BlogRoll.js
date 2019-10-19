@@ -5,7 +5,6 @@ import { Link, graphql, StaticQuery } from "gatsby"
 const BlogRoll = ({ data }) => {
   // const { edges: posts } = data.allMarkdownRemark
   const posts = data.allMarkdownRemark.edges.map(edge => edge.node)
-  console.log(posts)
   return (
     <div className="flex flex-wrap justify-between -mx-3">
       {posts.map(post => (
