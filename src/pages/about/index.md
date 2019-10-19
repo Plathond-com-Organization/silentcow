@@ -1,7 +1,21 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: About Us
+quotes:
+  - name: 'Joshua Morris, Co-founder'
+    quote: >-
+      Some problems in life appear too complex to attempt and the cube has
+      become the very image of this fear. We are here to show you that your
+      brain can break down almost any problem - and this is just the
+      beginning.....
+    quoteImage: /img/joshua.webp
+  - name: 'David Plews, Co-founder'
+    quote: >-
+      Single-origin coffee is coffee grown within a single known geographic
+      origin. Sometimes, this is a single farm or a specific collection of beans
+      from a single country. The name of the coffee is then usually the place it
+      was grown to whatever degree available.
+    quoteImage: /img/dsc_1031.jpg
 ---
 ### Joshua Morris, Co-founder
 > Some problems in life appear too complex to attempt and the cube has become the very image of this fear. We are here to show you that your brain can break down almost any problem - and this is just the beginning.....
