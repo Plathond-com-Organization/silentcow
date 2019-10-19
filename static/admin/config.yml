@@ -96,6 +96,17 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: Quotes,
+              name: quotes,
+              widget: list,
+              fields:
+                [
+                  { label: Name, name: name, widget: string },
+                  { label: Quote, name: quote, widget: markdown },
+                  { label: QuoteImage, name: quoteImage, widget: image },
+                ],
+            }
       - file: "src/pages/whatwedo/index.md"
         label: "What We Do"
         name: "whatwedo"
