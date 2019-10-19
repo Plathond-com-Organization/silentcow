@@ -1,15 +1,35 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import Content, { HTMLContent } from "../components/Content"
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, quotes }) => {
   const PageContent = contentComponent || Content
   return (
-    <section className="container py-20">
-      <h2 className="text-5xl font-bold">{title}</h2>
-      <PageContent className="markdown" content={content} />
+    <>
+      <h2 className="container mt-10 text-6xl font-bold">{title}</h2>
+      {quotes.map(( quote, index ) => (
+        <Quote key={index} name={quote.name} quote={quote.quote} imgFluid={quote.quoteImage.childImageSharp.fluid} />
+      ))}
+      <section className="container py-10">
+        <PageContent className="markdown" content={content} />
+      </section>
+    </>
+  )
+}
+
+const Quote = ({ name = "Name", quote = "The quote goes here", imgFluid }) => {
+  return (
+    <section className="container my-5">
+      <div className="relative rounded-lg overflow-hidden shadow hover:shadow-xl tr-fast">
+        <Img fluid={imgFluid} className="relative h-96"></Img>
+        <div className="absolute inset-0 bg-custom-black-50 flex flex-col justify-end items-center text-white p-10">
+          <p className="text-2xl italic">{quote}</p>
+          <h4 className="text-4xl font-bold self-end">- {name}</h4>
+        </div>
+    </div>
     </section>
   )
 }
@@ -25,7 +45,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate contentComponent={HTMLContent} title={post.frontmatter.title} content={post.html} />
+      <AboutPageTemplate contentComponent={HTMLContent} title={post.frontmatter.title} content={post.html} quotes={post.frontmatter.quotes} />
     </Layout>
   )
 }
@@ -42,6 +62,17 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        quotes {
+          name
+          quote
+          quoteImage {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 85) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+        }
       }
     }
   }
