@@ -1,6 +1,5 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
@@ -44,6 +43,31 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+productItems:
+  - heading: The dual Kit
+    description: |-
+      This Kit includes :
+
+      * 2 x Silent Cow Cubes
+      * 1 x Set Achievement Stickers
+      * 1 x Protective Box
+      * 1 x Set Promo Stickers
+    link: >-
+      https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit?variant=13763565256749
+    price: £14.99
+    productImage: /img/multikit.webp
+  - heading: The single Kit
+    description: |-
+      This Kit Includes:
+
+      * 1 x Silent Cow Cube
+      * 1 x Set Achievement Stickers
+      * 1 x Protective Box
+      * 1 x Set Promo Stickers
+    link: >-
+      https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit-single?variant=13763653533741
+    price: £9.99
+    productImage: /img/singlekit.webp
 main:
   heading: Great coffee with no compromises
   description: >
@@ -99,3 +123,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
