@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .form-group {
-   @apply my-2 flex flex-col;
+  @apply my-2 flex flex-col;
 }
 
 .form-label {
@@ -23,6 +23,11 @@
   @apply bg-custom-red text-white;
 }
 
+.btn-custom {
+  @apply py-2 px-5 rounded-lg font-bold;
+  transition: all 200ms ease;
+}
+
 .tr-fast {
   transition: all 200ms linear;
 }
@@ -40,7 +45,9 @@
 }
 
 @screen sm {
-  .container { @apply px-10; }
+  .container {
+    @apply px-10;
+  }
 }
 
 .markdown {
