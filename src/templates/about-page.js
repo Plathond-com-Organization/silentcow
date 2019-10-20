@@ -25,9 +25,9 @@ const Quote = ({ name = "Name", quote = "The quote goes here", imgFluid }) => {
     <section className="container my-5">
       <div className="relative rounded-lg overflow-hidden shadow hover:shadow-xl tr-fast">
         <Img fluid={imgFluid} className="relative h-96"></Img>
-        <div className="absolute inset-0 bg-custom-black-50 flex flex-col justify-end items-center text-white p-10">
-          <p className="text-2xl italic">{quote}</p>
-          <h4 className="text-4xl font-bold self-end">- {name}</h4>
+        <div className="absolute inset-0 bg-custom-black-50 flex flex-col justify-end items-center text-white px-4 md:px-10 p-10">
+          <p className="text-lg md:text-xl lg:text-2xl italic">{quote}</p>
+          <h4 className="mt-4 text-xl md:text-3xl lg:text-4xl font-bold self-end">- {name}</h4>
         </div>
     </div>
     </section>
