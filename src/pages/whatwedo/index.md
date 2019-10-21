@@ -19,8 +19,7 @@ whats:
       allow them to easily complete our 5 level cube solving tutorials.
 
 
-      Get in touch at moo@silentcow.co.uk​image: /img/meeting.webp title:
-      Corporate Training and Team Building
+      Get in touch at moo@silentcow.co.uk
     image: /img/meeting.webp
     title: Corporate Training and Team Building
   - description: >-
@@ -39,8 +38,7 @@ whats:
 
       Its sensible to do this course over a couple of weeks that way your hands
       will retain what you have learned and you will be able to solve reliably
-      for years to come! image: /img/level.webp title: Our 5 Level Training
-      Programme
+      for years to come! 
     image: /img/level.webp
     title: Our 5 Level Training Programme
   - description: Purchase from one of our kits.
