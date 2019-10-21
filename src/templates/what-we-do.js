@@ -29,7 +29,7 @@ export const WhatSectionItem = ({ what, index }) => {
       <Img className="lg:w-1/2" fluid={what.image.childImageSharp.fluid} style={{ order: index % 2 ? "-1" : "1" }}></Img>
       <div className="px-5 lg:px-10 p-10 lg:w-1/2 order-last lg:order-none">
         <h4 className="mb-10 text-2xl font-bold">{what.title}</h4>
-        <p className="text-lg">{what.description}</p>
+        <div className="text-lg whitespace-pre-line">{what.description}</div>
       </div>
     </div>
   )
