@@ -2,17 +2,15 @@
 templateKey: product-page
 showMainHero: true
 showProductSectionOne: true
-showProductSectionTwo: true
+showProductSectiontwo: true
 showTestimonials: true
 showPriceList: true
 title: Our Coffee
-image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+image: /img/dsc_1014.jpg
+heading: We love learning & problem solving.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Delivering a fine tuned method to solving a cube that’s fun for the young &
+  teaches professionals how to tackle the puzzles in their work life.
 intro:
   blurbs:
     - image: /img/dsc_1026.jpg
@@ -82,13 +80,13 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/dsc_0062.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/dsc_1026.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/dsc_0090.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
@@ -98,6 +96,15 @@ testimonials:
     quote: >-
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+full_image: /img/dsc_0927.jpg
+pricing:
+  heading: Test
+  description: test
+  plans:
+    - description: test
+      items:
+        - test
+      plan: test
+      price: test
 ---
 
