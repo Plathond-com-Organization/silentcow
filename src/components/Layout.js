@@ -6,7 +6,6 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 import '@fortawesome/fontawesome-free/css/all.css'
-// import './all.sass'
 import './tailwind.css'
 
 const TemplateWrapper = ({ children }) => {
