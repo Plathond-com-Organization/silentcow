@@ -117,6 +117,7 @@ const IndexPage = ({ data }) => {
         whats={whats}
         showWhatCards={frontmatter.showWhatCards}
         showQuoteCards={frontmatter.showQuoteCards}
+        showPriceList={frontmatter.showPriceList}
         showProductCards={frontmatter.showProductCards}
         showBlogPosts={frontmatter.showBlogPosts}
         quotes={quotes}
