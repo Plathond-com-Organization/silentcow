@@ -31,6 +31,7 @@ export const ProductPageTemplate = ({
       {showProductSectionOne && <ProductSection1 heading={heading} description={description} intro={intro} />}
       {showProductSectionTwo && <ProductSection2 main={main} />}
       {showTestimonials && <TestimonialsSection testimonials={testimonials} />}
+      <span className="py-16 block"></span>
       {showPriceList && <PriceListSection fullImage={fullImage} productItems={productItems} />}
     </div>
   )
@@ -56,8 +57,8 @@ const TestimonialsSection = ({ testimonials }) => {
 const ProductSection1 = ({ heading, description, intro }) => {
   return (
     <section className="container flex flex-col py-20">
-      <h2 className="leading-tight text-5xl font-bold">{heading}</h2>
-      <p className="mt-5 mb-8 md:w-8/12 leading-relaxed">{description}</p>
+      <h2 className="leading-tight text-3xl md:text-4xl lg:text-5xl font-bold">{heading}</h2>
+      <p className="mt-5 mb-8 lg:w-8/12 leading-relaxed">{description}</p>
       <Features gridItems={intro.blurbs} />
     </section>
   )
@@ -65,18 +66,18 @@ const ProductSection1 = ({ heading, description, intro }) => {
 
 const ProductSection2 = ({ main }) => {
   return (
-    <section class="container py-20">
-      <h3 className="text-5xl font-bold">{main.heading}</h3>
-      <p className="my-5 leading-relaxed md:w-1/2">{main.description}</p>
+    <section class="container">
+      <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold">{main.heading}</h3>
+      <p className="my-5 leading-relaxed lg:w-1/2">{main.description}</p>
       <div class="flex flex-wrap -mx-2">
         <div className="p-2 w-1/2">
-          <Img className="rounded-lg" className="h-96" fluid={main.image1.image.childImageSharp.fluid}></Img>
+          <Img className="h-64 lg:h-96" fluid={main.image1.image.childImageSharp.fluid}></Img>
         </div>
         <div className="p-2 w-1/2">
-          <Img className="rounded-lg" className="h-96" fluid={main.image2.image.childImageSharp.fluid}></Img>
+          <Img className="h-64 lg:h-96" fluid={main.image2.image.childImageSharp.fluid}></Img>
         </div>
         <div className="p-2 w-full">
-          <Img className="rounded-lg" fluid={main.image3.image.childImageSharp.fluid}></Img>
+          <Img fluid={main.image3.image.childImageSharp.fluid}></Img>
         </div>
       </div>
     </section>
@@ -195,7 +196,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
+                fluid(maxHeight: 526, quality: 92) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -205,7 +206,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
+                fluid(maxHeight: 526, quality: 92) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -215,7 +216,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 1075, maxHeight: 500, quality: 72) {
+                fluid(maxWidth: 1075, maxHeight: 800, quality: 72) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -6,7 +6,7 @@ const FeatureGrid = ({ gridItems }) => {
   return (
     <div className="flex flex-wrap -mx-5">
       {gridItems.map(item => (
-        <div key={item.text} className="p-10 flex flex-col md:w-1/2">
+        <div key={item.text} className="p-5 flex flex-col md:w-1/2">
           <PreviewCompatibleImage imageInfo={item}/>
           <span className="mt-4">{item.text}</span>
         </div>
