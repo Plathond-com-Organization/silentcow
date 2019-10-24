@@ -115,6 +115,11 @@ collections:
         name: "products"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page" }
+          - { label: "Show Main Hero?", name: "showMainHero", widget: "boolean", default: true}
+          - { label: "Show Product Section 1?", name: "showProductSectionOne", widget: "boolean", default: true}
+          - { label: "Show Product Section 2?", name: "showProductSectiontwo", widget: "boolean", default: true}
+          - { label: "Show Testimonials?", name: "showTestimonials", widget: "boolean", default: true}
+          - { label: "Show Price List?", name: "showPriceList", widget: "boolean", default: true}
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }

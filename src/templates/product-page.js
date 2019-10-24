@@ -9,34 +9,77 @@ import Features from "../components/Features"
 import Testimonials from "../components/Testimonials"
 import Hero from "../components/misc/Hero"
 
-export const ProductPageTemplate = ({ image, title, productItems, heading, description, intro, main, testimonials, fullImage, pricing }) => {
+export const ProductPageTemplate = ({
+  image,
+  title,
+  productItems,
+  heading,
+  description,
+  intro,
+  main,
+  testimonials,
+  fullImage,
+  showMainHero,
+  showProductSectionOne,
+  showProductSectionTwo,
+  showTestimonials,
+  showPriceList,
+}) => {
   return (
     <div>
-      <Hero heading="Our Coffee" imageFluid={image.childImageSharp.fluid} />
-      <section className="container flex flex-col py-20">
-        <h2 className="leading-tight text-5xl font-bold">{heading}</h2>
-        <p className="mt-5 mb-8 md:w-8/12 leading-relaxed">{description}</p>
-        <Features gridItems={intro.blurbs} />
-      </section>
-      <section class="container py-20">
-        <h3 className="text-5xl font-bold">{main.heading}</h3>
-        <p className="my-5 leading-relaxed md:w-1/2">{main.description}</p>
-        <div class="flex flex-wrap -mx-2">
-          <div className="p-2 w-1/2">
-            <Img className="rounded-lg" fluid={main.image1.image.childImageSharp.fluid}></Img>
-          </div>
-          <div className="p-2 w-1/2">
-            <Img className="rounded-lg" fluid={main.image2.image.childImageSharp.fluid}></Img>
-          </div>
-          <div className="p-2 w-full">
-            <Img className="rounded-lg" fluid={main.image3.image.childImageSharp.fluid}></Img>
-          </div>
-        </div>
-        <Testimonials testimonials={testimonials} />
-      </section>
+      {showMainHero && <Hero heading={title} imageFluid={image.childImageSharp.fluid} />}
+      {showProductSectionOne && <ProductSection1 heading={heading} description={description} intro={intro} />}
+      {showProductSectionTwo && <ProductSection2 main={main} />}
+      {showTestimonials && <TestimonialsSection testimonials={testimonials} />}
+      {showPriceList && <PriceListSection fullImage={fullImage} productItems={productItems} />}
+    </div>
+  )
+}
+
+const PriceListSection = ({ fullImage, productItems }) => {
+  return (
+    <>
       <Hero heading="" imageFluid={fullImage.childImageSharp.fluid}></Hero>
       <ProductList productItems={productItems} />
-    </div>
+    </>
+  )
+}
+
+const TestimonialsSection = ({ testimonials }) => {
+  return (
+    <section className="container">
+      <Testimonials testimonials={testimonials} />
+    </section>
+  )
+}
+
+const ProductSection1 = ({ heading, description, intro }) => {
+  return (
+    <section className="container flex flex-col py-20">
+      <h2 className="leading-tight text-5xl font-bold">{heading}</h2>
+      <p className="mt-5 mb-8 md:w-8/12 leading-relaxed">{description}</p>
+      <Features gridItems={intro.blurbs} />
+    </section>
+  )
+}
+
+const ProductSection2 = ({ main }) => {
+  return (
+    <section class="container py-20">
+      <h3 className="text-5xl font-bold">{main.heading}</h3>
+      <p className="my-5 leading-relaxed md:w-1/2">{main.description}</p>
+      <div class="flex flex-wrap -mx-2">
+        <div className="p-2 w-1/2">
+          <Img className="rounded-lg" fluid={main.image1.image.childImageSharp.fluid}></Img>
+        </div>
+        <div className="p-2 w-1/2">
+          <Img className="rounded-lg" fluid={main.image2.image.childImageSharp.fluid}></Img>
+        </div>
+        <div className="p-2 w-full">
+          <Img className="rounded-lg" fluid={main.image3.image.childImageSharp.fluid}></Img>
+        </div>
+      </div>
+    </section>
   )
 }
 
@@ -78,8 +121,12 @@ const ProductPage = ({ data }) => {
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
         productItems={frontmatter.productItems}
+        showMainHero={frontmatter.showMainHero}
+        showProductSectionOne={frontmatter.showProductSectionOne}
+        showProductSectionTwo={frontmatter.showProductSectionTwo}
+        showTestimonials={frontmatter.showTestimonials}
+        showPriceList={frontmatter.showPriceList}
       />
     </Layout>
   )
@@ -99,6 +146,11 @@ export const productPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        showMainHero
+        showProductSectionOne
+        showProductSectionTwo
+        showTestimonials
+        showPriceList
         title
         image {
           childImageSharp {
@@ -179,16 +231,6 @@ export const productPageQuery = graphql`
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }

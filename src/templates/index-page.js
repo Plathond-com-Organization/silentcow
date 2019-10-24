@@ -61,13 +61,13 @@ const BlogSection = () => {
   )
 }
 
-export const IndexPageTemplate = ({ whats, image, title, heading, subheading, mainpitch, description, intro }) => (
+export const IndexPageTemplate = ({ whats, image, title, heading, subheading, mainpitch, description, intro, showWhatCards, showBlogPosts, showProductCards }) => (
   <div className="home-page">
     <HeroSection image={image} title={title} subheading={subheading}/>
-    <WhatsSection whats={whats} />
+    { showWhatCards && <WhatsSection whats={whats} /> }
     <MainPitchSection mainpitch={mainpitch}/>
-    <FeaturesSection intro={intro}/>
-    <BlogSection/>
+    { showProductCards && <FeaturesSection intro={intro}/> }
+    { showBlogPosts && <BlogSection/> }
   </div>
 )
 
@@ -86,6 +86,9 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={data.products.frontmatter.intro}
         whats={whats}
+        showWhatCards={frontmatter.showWhatCards}
+        showProductCards={frontmatter.showProductCards}
+        showBlogPosts={frontmatter.showBlogPosts}
       />
     </Layout>
   )
@@ -112,6 +115,9 @@ export const pageQuery = graphql`
           description
         }
         description
+        showWhatCards
+        showProductCards
+        showBlogPosts
       }
     }
     whats: markdownRemark(frontmatter: { templateKey: { eq: "what-we-do" } }) {
