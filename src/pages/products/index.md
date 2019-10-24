@@ -2,7 +2,7 @@
 templateKey: product-page
 showMainHero: true
 showProductSectionOne: true
-showProductSectiontwo: true
+showProductSectionTwo: true
 showTestimonials: true
 showPriceList: true
 title: Our Coffee

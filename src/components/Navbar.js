@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import logo from "../img/logo.png"
+import logo from "../img/logo-cow.png"
 
 const Navbar = () => {
   const links = [
@@ -33,9 +33,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="container py-5 flex flex-wrap justify-between items-center">
+      <nav className="container py-2 flex flex-wrap justify-between items-center">
         <Link to="/" className="w-48 nav-header flex-shrink-0">
-          <img className="object-fit" src={logo} alt="Silent Cow" />
+          <img className="object-fit h-24" src={logo} alt="Silent Cow" />
         </Link>
         <div className="md:hidden text-3xl" onClick={() => toggleNavbar(!isNavToggle)}>
           <i className="fas fa-bars"></i>
