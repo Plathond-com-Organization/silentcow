@@ -10,7 +10,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, quotes }) 
   return (
     <>
       <h2 className="container mt-10 text-6xl font-bold">{title}</h2>
-      {quotes.map(( quote, index ) => (
+      {quotes.map((quote, index) => (
         <Quote key={index} name={quote.name} quote={quote.quote} imgFluid={quote.quoteImage.childImageSharp.fluid} />
       ))}
       <section className="container py-10">
@@ -20,7 +20,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, quotes }) 
   )
 }
 
-const Quote = ({ name = "Name", quote = "The quote goes here", imgFluid }) => {
+export const Quote = ({ name = "Name", quote = "The quote goes here", imgFluid }) => {
   return (
     <section className="container my-5">
       <div className="relative rounded-lg overflow-hidden shadow hover:shadow-xl tr-fast">
@@ -29,7 +29,7 @@ const Quote = ({ name = "Name", quote = "The quote goes here", imgFluid }) => {
           <p className="text-lg md:text-xl lg:text-2xl italic">{quote}</p>
           <h4 className="mt-4 text-xl md:text-3xl lg:text-4xl font-bold self-end">- {name}</h4>
         </div>
-    </div>
+      </div>
     </section>
   )
 }

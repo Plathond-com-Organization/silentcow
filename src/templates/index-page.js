@@ -7,6 +7,7 @@ import Layout from "../components/Layout"
 import Features from "../components/Features"
 import BlogRoll from "../components/BlogRoll"
 import Hero from "../components/misc/Hero"
+import { Quote } from "../templates/about-page"
 import { WhatCardItem } from "../templates/what-we-do"
 
 const HeroSection = ({ image, title, subheading }) => {
@@ -17,7 +18,7 @@ const HeroSection = ({ image, title, subheading }) => {
   )
 }
 
-const WhatsSection = ({whats}) => {
+const WhatsSection = ({ whats }) => {
   return (
     <section class="container flex flex-wrap mt-20">
       {whats.map((what, index) => (
@@ -27,7 +28,7 @@ const WhatsSection = ({whats}) => {
   )
 }
 
-const MainPitchSection = ({mainpitch}) => {
+const MainPitchSection = ({ mainpitch }) => {
   return (
     <section id="home-intro" className="container leading-tight py-10">
       <div>
@@ -38,7 +39,7 @@ const MainPitchSection = ({mainpitch}) => {
   )
 }
 
-const FeaturesSection = ({intro}) => {
+const FeaturesSection = ({ intro }) => {
   return (
     <section id="home-products" className="container flex flex-col pb-10">
       <Features gridItems={intro.blurbs} />
@@ -61,19 +62,43 @@ const BlogSection = () => {
   )
 }
 
-export const IndexPageTemplate = ({ whats, image, title, heading, subheading, mainpitch, description, intro, showWhatCards, showBlogPosts, showProductCards }) => (
+const QuotesSection = ({quotes}) => {
+  return (
+    <section>
+      {quotes.map((quote, index) => (
+        <Quote key={index} name={quote.name} quote={quote.quote} imgFluid={quote.quoteImage.childImageSharp.fluid} />
+      ))}
+    </section>
+  )
+}
+
+export const IndexPageTemplate = ({
+  whats,
+  image,
+  title,
+  subheading,
+  mainpitch,
+  intro,
+  showWhatCards,
+  showQuoteCards,
+  showBlogPosts,
+  showProductCards,
+  quotes,
+}) => (
   <div className="home-page">
-    <HeroSection image={image} title={title} subheading={subheading}/>
-    { showWhatCards && <WhatsSection whats={whats} /> }
-    <MainPitchSection mainpitch={mainpitch}/>
-    { showProductCards && <FeaturesSection intro={intro}/> }
-    { showBlogPosts && <BlogSection/> }
+    <HeroSection image={image} title={title} subheading={subheading} />
+    {showWhatCards && <WhatsSection whats={whats} />}
+    <MainPitchSection mainpitch={mainpitch} />
+    {showQuoteCards && <QuotesSection quotes={quotes} />}
+    {showProductCards && <FeaturesSection intro={intro} />}
+    {showBlogPosts && <BlogSection />}
   </div>
 )
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   const whats = data.whats.frontmatter.whats
+  const quotes = data.about.frontmatter.quotes
 
   return (
     <Layout>
@@ -87,8 +112,10 @@ const IndexPage = ({ data }) => {
         intro={data.products.frontmatter.intro}
         whats={whats}
         showWhatCards={frontmatter.showWhatCards}
+        showQuoteCards={frontmatter.showQuoteCards}
         showProductCards={frontmatter.showProductCards}
         showBlogPosts={frontmatter.showBlogPosts}
+        quotes={quotes}
       />
     </Layout>
   )
@@ -116,6 +143,7 @@ export const pageQuery = graphql`
         }
         description
         showWhatCards
+        showQuoteCards
         showProductCards
         showBlogPosts
       }
@@ -146,6 +174,21 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+      }
+    }
+    about: markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
+      frontmatter {
+        quotes {
+          name
+          quote
+          quoteImage {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 85) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
         }
       }
     }

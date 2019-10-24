@@ -2,6 +2,7 @@
 templateKey: index-page
 title: Great coffee with a conscience
 showWhatCards: true
+showQuoteCards: true
 showProductCards: true
 showBlogPosts: true
 image: /img/home-cover.JPG

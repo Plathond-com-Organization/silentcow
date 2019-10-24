@@ -36,6 +36,7 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page" }
           - { label: Title, name: title, widget: string }
           - { label: "Show What Cards?", name: "showWhatCards", widget: "boolean", default: true}
+          - { label: "Show Quote Cards?", name: "showQuoteCards", widget: "boolean", default: true}
           - { label: "Show Product Cards?", name: "showProductCards", widget: "boolean", default: true}
           - { label: "Show blog Posts?", name: "showBlogPosts", widget: "boolean", default: true}
           - { label: Image, name: image, widget: image }
