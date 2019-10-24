@@ -34,6 +34,7 @@ collections:
         name: "index"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page" }
+          - { label: "Contact Email ID", name: contactEmailId, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: "Show What Cards?", name: "showWhatCards", widget: "boolean", default: true}
           - { label: "Show Quote Cards?", name: "showQuoteCards", widget: "boolean", default: true}

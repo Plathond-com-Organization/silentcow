@@ -1,5 +1,6 @@
 ---
 templateKey: index-page
+contactEmailId: david@cleargif.co.uk
 title: Great coffee with a conscience
 showWhatCards: true
 showQuoteCards: true

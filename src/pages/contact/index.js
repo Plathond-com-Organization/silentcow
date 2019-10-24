@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../../components/Layout"
 
 const Map = () => {
@@ -19,11 +20,12 @@ const Map = () => {
   )
 }
 
-const Contact = () => {
+const Contact = ({data}) => {
+  const emailId = data.markdownRemark.frontmatter.contactEmailId;
   return (
     <Layout>
-      <Map/>
-      <form action="" className="container my-20 md:w-2/3 lg:w-1/2">
+      <Map />
+      <form action={`https://mailthis.to/${emailId}`} className="container my-20 md:w-2/3 lg:w-1/2">
         <h2 class="text-5xl font-bold">Contact Us</h2>
         <div className="form-group">
           <label class="form-label" for="name">
@@ -56,5 +58,15 @@ const Contact = () => {
     </Layout>
   )
 }
+
+export const PageQuery = graphql`
+  query ContactPageQuery {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      frontmatter {
+        contactEmailId
+      }
+    }
+  }
+`
 
 export default Contact
