@@ -25,7 +25,7 @@ const Contact = ({data}) => {
   return (
     <Layout>
       <Map />
-      <form action={`https://mailthis.to/${emailId}`} className="container my-20 md:w-2/3 lg:w-1/2">
+      <form action={`https://mailthis.to/${emailId}`} method="POST" className="container my-20 md:w-2/3 lg:w-1/2">
         <h2 class="text-5xl font-bold">Contact Us</h2>
         <div className="form-group">
           <label class="form-label" for="name">
