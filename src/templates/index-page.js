@@ -9,6 +9,7 @@ import BlogRoll from "../components/BlogRoll"
 import Hero from "../components/misc/Hero"
 import { Quote } from "../templates/about-page"
 import { WhatCardItem } from "../templates/what-we-do"
+import { PriceList } from "../templates/product-page"
 
 const HeroSection = ({ image, title, subheading }) => {
   return (
@@ -62,7 +63,7 @@ const BlogSection = () => {
   )
 }
 
-const QuotesSection = ({quotes}) => {
+const QuotesSection = ({ quotes }) => {
   return (
     <section>
       {quotes.map((quote, index) => (
@@ -83,7 +84,9 @@ export const IndexPageTemplate = ({
   showQuoteCards,
   showBlogPosts,
   showProductCards,
+  showPriceList,
   quotes,
+  productItems,
 }) => (
   <div className="home-page">
     <HeroSection image={image} title={title} subheading={subheading} />
@@ -91,6 +94,7 @@ export const IndexPageTemplate = ({
     <MainPitchSection mainpitch={mainpitch} />
     {showQuoteCards && <QuotesSection quotes={quotes} />}
     {showProductCards && <FeaturesSection intro={intro} />}
+    {showPriceList && <PriceList productItems={productItems} />}
     {showBlogPosts && <BlogSection />}
   </div>
 )
@@ -116,6 +120,7 @@ const IndexPage = ({ data }) => {
         showProductCards={frontmatter.showProductCards}
         showBlogPosts={frontmatter.showBlogPosts}
         quotes={quotes}
+        productItems={data.products.frontmatter.productItems}
       />
     </Layout>
   )
@@ -144,6 +149,7 @@ export const pageQuery = graphql`
         description
         showWhatCards
         showQuoteCards
+        showPriceList
         showProductCards
         showBlogPosts
       }
@@ -174,6 +180,19 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        productItems {
+          heading
+          description
+          price
+          productImage {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          link
         }
       }
     }

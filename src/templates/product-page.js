@@ -40,7 +40,7 @@ const PriceListSection = ({ fullImage, productItems }) => {
   return (
     <>
       <Hero heading="" imageFluid={fullImage.childImageSharp.fluid}></Hero>
-      <ProductList productItems={productItems} />
+      <PriceList productItems={productItems} />
     </>
   )
 }
@@ -70,10 +70,10 @@ const ProductSection2 = ({ main }) => {
       <p className="my-5 leading-relaxed md:w-1/2">{main.description}</p>
       <div class="flex flex-wrap -mx-2">
         <div className="p-2 w-1/2">
-          <Img className="rounded-lg" fluid={main.image1.image.childImageSharp.fluid}></Img>
+          <Img className="rounded-lg" className="h-96" fluid={main.image1.image.childImageSharp.fluid}></Img>
         </div>
         <div className="p-2 w-1/2">
-          <Img className="rounded-lg" fluid={main.image2.image.childImageSharp.fluid}></Img>
+          <Img className="rounded-lg" className="h-96" fluid={main.image2.image.childImageSharp.fluid}></Img>
         </div>
         <div className="p-2 w-full">
           <Img className="rounded-lg" fluid={main.image3.image.childImageSharp.fluid}></Img>
@@ -83,7 +83,7 @@ const ProductSection2 = ({ main }) => {
   )
 }
 
-const ProductList = ({ productItems }) => {
+export const PriceList = ({ productItems }) => {
   const converter = new showdown.Converter()
   return (
     <section class="container my-20">
@@ -215,7 +215,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
+                fluid(maxWidth: 1075, maxHeight: 500, quality: 72) {
                   ...GatsbyImageSharpFluid
                 }
               }

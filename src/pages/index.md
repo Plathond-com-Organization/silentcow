@@ -4,6 +4,7 @@ title: Great coffee with a conscience
 showWhatCards: true
 showQuoteCards: true
 showProductCards: true
+showPriceList: true
 showBlogPosts: true
 image: /img/home-cover.JPG
 heading: Great coffee with a conscience
