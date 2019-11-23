@@ -11,10 +11,17 @@ quotes:
     quoteImage: /img/joshua.webp
   - name: 'David Plews, Co-founder'
     quote: >-
-      Single-origin coffee is coffee grown within a single known geographic
-      origin. Sometimes, this is a single farm or a specific collection of beans
-      from a single country. The name of the coffee is then usually the place it
-      was grown to whatever degree available.
+      Whether you just want to do it once, you want to take up speed cuing as a
+      hobby and anything in between..._**The Silent Cow**_ will guide you
+      through the journey.  I remember my first time solving the last layer with
+      the _beginners’ method_. From, what looked like an utter mess, appeared a
+      solved cube. It was **_magical_** to see.\
+
+      \
+
+      Watch out for it when you get around to doing it. [Read more on Medium:
+      The beautiful
+      solve](https://medium.com/@thesilentcow/the-beautiful-solve-dea192b19d98)
     quoteImage: /img/dsc_1031.jpg
 ---
 ### Joshua Morris, Co-founder
