@@ -28,11 +28,11 @@ export const ProductPageTemplate = ({
   return (
     <div>
       {showMainHero && <Hero heading={title} imageFluid={image.childImageSharp.fluid} />}
+      {showPriceList && <PriceListSection fullImage={fullImage} productItems={productItems} />}
       {showProductSectionOne && <ProductSection1 heading={heading} description={description} intro={intro} />}
       {showProductSectionTwo && <ProductSection2 main={main} />}
       {showTestimonials && <TestimonialsSection testimonials={testimonials} />}
       <span className="py-16 block"></span>
-      {showPriceList && <PriceListSection fullImage={fullImage} productItems={productItems} />}
     </div>
   )
 }
