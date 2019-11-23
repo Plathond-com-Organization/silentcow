@@ -1,11 +1,5 @@
 ---
-templateKey: product-page
-showMainHero: true
-showProductSectionOne: true
-showProductSectionTwo: true
-showTestimonials: true
-showPriceList: true
-title: Our Coffee
+title: Our Products
 image: /img/dsc_1014.jpg
 heading: We love learning & problem solving.
 description: >-
@@ -106,5 +100,11 @@ pricing:
         - test
       plan: test
       price: test
+templateKey: product-page
+showMainHero: true
+showProductSectionOne: true
+showProductSectionTwo: true
+showTestimonials: true
+showPriceList: true
 ---
 
