@@ -2,14 +2,14 @@
 templateKey: about-page
 title: About Us
 quotes:
-  - name: 'Joshua Morris, Co-founder'
+  - name: 'Joshua Morris, Founder'
     quote: >-
       Some problems in life appear too complex to attempt and the cube has
       become the very image of this fear. We are here to show you that your
       brain can break down almost any problem - and this is just the
       beginning.....
     quoteImage: /img/joshua.webp
-  - name: 'David Plews, Co-founder'
+  - name: 'David Plews, Founder'
     quote: >-
       Whether you just want to do it once, you want to take up speed cuing as a
       hobby and anything in between..._**The Silent Cow**_ will guide you
