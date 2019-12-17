@@ -1,15 +1,17 @@
 ---
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
-title: Welcome to The Silent Cow
+title: 'Beginners Method | Cubing | The Silent Cow | Surrey, UK'
 showWhatCards: true
 showQuoteCards: true
 showProductCards: true
 showPriceList: true
 showBlogPosts: true
 image: /img/home-cover.JPG
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Welcome to The Silent Cow
+subheading: >-
+  If you are ready to tick cubing off your bucket list, then you are in the
+  right place.
 mainpitch:
   title: Why Silent Cow
   description: >
