@@ -13,12 +13,11 @@ subheading: >-
   If you are ready to tick cubing off your bucket list, then you are in the
   right place.
 mainpitch:
-  title: Why Silent Cow
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Why The Silent Cow?
+  description: >-
+    Delivering a fine tuned method to solving a cube that’s fun for the young
+    and teaches professionals how to break down and tackle the puzzles in their
+    work life.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
