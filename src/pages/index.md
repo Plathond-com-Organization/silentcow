@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
-title: Great coffee with a conscience
+title: Welcome to The Silent Cow
 showWhatCards: true
 showQuoteCards: true
 showProductCards: true
