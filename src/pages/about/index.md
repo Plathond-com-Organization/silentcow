@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About Us title
+title: About Us
 quotes:
   - name: 'Joshua Morris, Founder'
     quote: >-
