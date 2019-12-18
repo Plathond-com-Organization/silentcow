@@ -1,43 +1,30 @@
 ---
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
-title: 'Beginners Method | Cubing | The Silent Cow | Surrey, UK'
+title: Landing page title
 showWhatCards: true
 showQuoteCards: true
 showProductCards: true
 showPriceList: true
 showBlogPosts: true
 image: /img/home-cover.JPG
-heading: Welcome to The Silent Cow
-subheading: >-
-  If you are ready to tick cubing off your bucket list, then you are in the
-  right place.
+heading: Landing page heading
+subheading: Landing page sub heading
 mainpitch:
-  title: Why The Silent Cow?
-  description: >-
-    Delivering a fine tuned method to solving a cube that’s fun for the young
-    and teaches professionals how to break down and tackle the puzzles in their
-    work life.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: Main pitch 1 Title
+  description: Main pitch 1 Description
+description: Landing page description
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Landing page main heading
+  description: 'Landing page main description '
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Landing page main image alt 1
     image: /img/dsc_0062.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Landing page main image alt 2
     image: /img/dsc_0825.jpg
   image3:
-    alt: Coffee beans
+    alt: Landing page main image alt 3
     image: /img/dsc_0927.jpg
 ---
 
