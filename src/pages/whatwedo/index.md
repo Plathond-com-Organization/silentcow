@@ -2,10 +2,10 @@
 templateKey: what-we-do
 whats:
   - description: >-
-      We deliver our fine tuned Problem Solving workshop as as educational team
-      building experience. Although this course was designed for the workplace
-      it is well suited for any event where up to 20 people work together to
-      open their minds.
+      WHATS 1: Description: We deliver our fine tuned Problem Solving workshop
+      as as educational team building experience. Although this course was
+      designed for the workplace it is well suited for any event where up to 20
+      people work together to open their minds.
 
 
       One of our experts will come to you and run an hour and a half session in
@@ -21,9 +21,10 @@ whats:
 
       Get in touch at moo@silentcow.co.uk
     image: /img/meeting.webp
-    title: Corporate Training and Team Building
+    title: 'WHATS 1: Title: Corporate Training and Team Building'
   - description: >-
-      Learn how to speed cube with the 5 level training programme!
+      WHATS 2: Description: Learn how to speed cube with the 5 level training
+      programme!
 
 
       Our philosophy is to engage your muscle memory from the start of your
@@ -40,9 +41,9 @@ whats:
       will retain what you have learned and you will be able to solve reliably
       for years to come! 
     image: /img/level.webp
-    title: Our 5 Level Training Programme
-  - description: Purchase from one of our kits.
+    title: 'WHATS 2: Title: Our 5 Level Training Programme'
+  - description: 'WHATS 3: Description: Purchase from one of our kits.'
     image: /img/dsc_1026.jpg
-    title: Products
+    title: 'WHATS 3: Title: Products'
 ---
 
