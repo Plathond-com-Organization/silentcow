@@ -119,8 +119,20 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: string }
+          - { label: Full_image, name: full_image, widget: image }
+          - {
+              label: Products,
+              name: productItems,
+              widget: list,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Description, name: description, widget: markdown },
+                  { label: Price, name: price, widget: string },
+                  { label: Image, name: productImage, widget: image },
+                  { label: Link, name: link, widget: string },
+                ],
+            }
           - {
               label: Intro,
               name: intro,
@@ -137,19 +149,8 @@ collections:
                   },
                 ],
             }
-          - {
-              label: Products,
-              name: productItems,
-              widget: list,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: markdown },
-                  { label: Price, name: price, widget: string },
-                  { label: Image, name: productImage, widget: image },
-                  { label: Link, name: link, widget: string },
-                ],
-            }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Description, name: description, widget: string }
           - {
               label: Main,
               name: main,
@@ -184,7 +185,6 @@ collections:
               widget: list,
               fields: [{ label: Quote, name: quote, widget: string }, { label: Author, name: author, widget: string }],
             }
-          - { label: Full_image, name: full_image, widget: image }
           - {
               label: Pricing,
               name: pricing,
