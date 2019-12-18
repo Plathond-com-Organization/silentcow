@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About Us
+title: About Us title
 quotes:
   - name: 'Joshua Morris, Founder'
     quote: >-
@@ -12,10 +12,10 @@ quotes:
   - name: 'David Plews, Founder'
     quote: >-
       Whether you just want to do it once, you want to take up speed cuing as a
-      hobby and anything in between..._**The Silent Cow**_ will guide you
-      through the journey.  I remember my first time solving the last layer with
-      the _beginners’ method_. From, what looked like an utter mess, appeared a
-      solved cube. It was **_magical_** to see.\
+      hobby and anything in between... The Silent Cow will guide you through the
+      journey.  I remember my first time solving the last layer with the
+      beginners’ method. From, what looked like an utter mess, appeared a solved
+      cube. It was magical to see.\
 
       \
 
