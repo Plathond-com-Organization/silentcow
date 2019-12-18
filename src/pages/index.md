@@ -12,11 +12,31 @@ heading: 'LP: Heading'
 subheading: 'LP: Subheading'
 mainpitch:
   title: 'PL:Main pitch 1: Title'
-  description: 'PL:Main pitch 1: Description'
-description: 'LP: Description'
+  description: >-
+    PL:Main pitch 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+    est laborum.
+description: >-
+  LP: Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+  do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 main:
   heading: 'LP: Main: Heading'
-  description: 'LP: Main: Description '
+  description: >-
+    LP: Main: Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+    anim id est laborum.
   image1:
     alt: 'LP: Main: Image alt 1'
     image: /img/dsc_0062.jpg
