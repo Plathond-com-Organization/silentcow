@@ -21,9 +21,9 @@ const HeroSection = ({ image, title, subheading }) => {
 
 const WhatsSection = ({ whats }) => {
   return (
-    <section class="container flex flex-wrap mt-20">
+    <section className="container flex flex-wrap mt-20">
       {whats.map((what, index) => (
-        <WhatCardItem cardNum={index + 1} cardText={what.title}></WhatCardItem>
+        <WhatCardItem cardNum={index + 1} cardText={what.title} key={index}></WhatCardItem>
       ))}
     </section>
   )

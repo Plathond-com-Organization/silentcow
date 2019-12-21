@@ -11,7 +11,7 @@ import './tailwind.css'
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div class="font-sans">
+    <div className="font-sans">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

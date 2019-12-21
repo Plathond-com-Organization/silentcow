@@ -66,10 +66,10 @@ const ProductSection1 = ({ heading, description, intro }) => {
 
 const ProductSection2 = ({ main }) => {
   return (
-    <section class="container">
+    <section className="container">
       <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold">{main.heading}</h3>
       <p className="my-5 leading-relaxed lg:w-1/2">{main.description}</p>
-      <div class="flex flex-wrap -mx-2">
+      <div className="flex flex-wrap -mx-2">
         <div className="p-2 w-1/2">
           <Img className="h-64 lg:h-96" fluid={main.image1.image.childImageSharp.fluid}></Img>
         </div>
@@ -87,11 +87,14 @@ const ProductSection2 = ({ main }) => {
 export const PriceList = ({ productItems }) => {
   const converter = new showdown.Converter()
   return (
-    <section class="container my-20">
+    <section className="container my-20">
       <h3 className="mb-10 text-5xl font-bold text-center">Our Products</h3>
       <div className="flex justify-around flex-wrap">
-        {productItems.map(product => (
-          <div className="mb-5 w-full lg:w-5/12 border-4 border-custom-blue bg-custom-blue text-white mx-2 shadow-lg hover:shadow-xl rounded-lg overflow-hidden tr-fast">
+        {productItems.map((product, index) => (
+          <div
+            className="mb-5 w-full lg:w-5/12 border-4 border-custom-blue bg-custom-blue text-white mx-2 shadow-lg hover:shadow-xl rounded-lg overflow-hidden tr-fast"
+            key={index}
+          >
             <Img className="h-96" imgStyle={{ padding: "2rem", background: "white" }} fluid={product.productImage.childImageSharp.fluid}></Img>
             <div className="my-5 p-5 flex flex-col items-center">
               <span className="text-5xl text-custom-navyblue font-bold">{product.price}</span>

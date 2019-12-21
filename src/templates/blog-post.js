@@ -17,7 +17,7 @@ export const BlogPostTemplate = ({ content, contentComponent, description, tags,
         <PostContent content={content} />
         {tags && tags.length ? (
           <div style={{ marginTop: `4rem` }}>
-            <h4 class="text-xl font-bold mb-5">Tags</h4>
+            <h4 className="text-xl font-bold mb-5">Tags</h4>
             <ul className="flex">
               {tags.map(tag => (
                 <li className="mr-4 text-blue-500" key={tag + `tag`}>

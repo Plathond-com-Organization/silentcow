@@ -8,7 +8,7 @@ const BlogRoll = ({ data }) => {
   return (
     <div className="flex flex-wrap justify-between -mx-3">
       {posts.map(post => (
-        <div className="md:w-1/2 px-3 mb-6">
+        <div className="md:w-1/2 px-3 mb-6" key={post.id}>
           <div className="bg-gray-200 shadow-md hover:shadow-xl border flex flex-col h-full my-2 p-8 rounded-lg tr-fast">
             <h1 className="h-16 text-2xl font-bold flex items-center">{post.frontmatter.title}</h1>
             <p className="mt-3 mb-5">{post.excerpt}</p>
