@@ -2,16 +2,9 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: "Hello \U0001F44B, Welcome to \U0001F92B\U0001F404"
-showWhatCards: false
-showQuoteCards: false
-showProductCards: false
-showPriceList: false
-showBlogPosts: false
 image: /img/home-cover.JPG
-heading: 'LP: Heading'
-subheading: 'LP: Subheading'
 mainpitch:
-  title: 'PL:Main pitch 1: Title'
+  title: You are in good hands
   description: >-
     PL:Main pitch 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -20,6 +13,13 @@ mainpitch:
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
     est laborum.
+showWhatCards: true
+showQuoteCards: false
+showProductCards: false
+showPriceList: false
+showBlogPosts: false
+heading: 'LP: Heading'
+subheading: 'LP: Subheading'
 description: >-
   LP: Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
   do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
