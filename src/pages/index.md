@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
-title: "Hello \U0001F44B, Welcome to The Silent Cow \U0001F92B\U0001F404"
+title: "Hello \U0001F44B, Welcome to \U0001F92B\U0001F404"
 showWhatCards: true
 showQuoteCards: true
 showProductCards: true
