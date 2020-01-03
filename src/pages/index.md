@@ -2,7 +2,7 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: "Hello \U0001F44B, Welcome to \U0001F92B\U0001F404"
-subheading: "Feel free to take a brows around our neck of the woods\U0001F333\U0001F333\U0001F333"
+subheading: Feel free to take a brows around our neck of the woods.
 image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
