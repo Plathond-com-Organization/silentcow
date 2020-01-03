@@ -2,6 +2,7 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: "Hello \U0001F44B, Welcome to \U0001F92B\U0001F404"
+subheading: "Feel free to take a brows around our neck of the woods\U0001F333\U0001F333\U0001F333"
 image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
@@ -19,7 +20,6 @@ showProductCards: false
 showPriceList: false
 showBlogPosts: false
 heading: 'LP: Heading'
-subheading: 'LP: Subheading'
 description: >-
   LP: Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
   do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
