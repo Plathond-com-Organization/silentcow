@@ -36,20 +36,20 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page" }
           - { label: "Contact Email ID", name: contactEmailId, widget: string }
           - { label: Title, name: title, widget: string }
-          - { label: "Show What Cards?", name: "showWhatCards", widget: "boolean", default: true}
-          - { label: "Show Quote Cards?", name: "showQuoteCards", widget: "boolean", default: true}
-          - { label: "Show Product Cards?", name: "showProductCards", widget: "boolean", default: true}
-          - { label: "Show Price List?", name: "showPriceList", widget: "boolean", default: true}
-          - { label: "Show blog Posts?", name: "showBlogPosts", widget: "boolean", default: true}
           - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
           - {
               label: Mainpitch,
               name: mainpitch,
               widget: object,
               fields: [{ label: Title, name: title, widget: string }, { label: Description, name: description, widget: text }],
             }
+          - { label: "Show What Cards?", name: "showWhatCards", widget: "boolean", default: true}
+          - { label: "Show Quote Cards?", name: "showQuoteCards", widget: "boolean", default: true}
+          - { label: "Show Product Cards?", name: "showProductCards", widget: "boolean", default: true}
+          - { label: "Show Price List?", name: "showPriceList", widget: "boolean", default: true}
+          - { label: "Show blog Posts?", name: "showBlogPosts", widget: "boolean", default: true}
+          - { label: Heading, name: heading, widget: string }
+          - { label: Subheading, name: subheading, widget: string }
           - { label: Description, name: description, widget: string }
           - {
               label: Main,
