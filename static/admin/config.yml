@@ -43,7 +43,7 @@ collections:
               widget: object,
               fields: [{ label: Title, name: title, widget: string }, { label: Description, name: description, widget: text }],
             }
-          - { label: "Show What Cards?", name: "showWhatCards", widget: "boolean", default: true}
+          - { label: "Cards: What we do", name: "showWhatCards", widget: "boolean", default: true}
           - { label: "Show Quote Cards?", name: "showQuoteCards", widget: "boolean", default: true}
           - { label: "Show Product Cards?", name: "showProductCards", widget: "boolean", default: true}
           - { label: "Show Price List?", name: "showPriceList", widget: "boolean", default: true}
