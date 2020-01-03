@@ -90,8 +90,8 @@ export const IndexPageTemplate = ({
 }) => (
   <div className="home-page">
     <HeroSection image={image} title={title} subheading={subheading} />
-    {showWhatCards && <WhatsSection whats={whats} />}
     <MainPitchSection mainpitch={mainpitch} />
+    {showWhatCards && <WhatsSection whats={whats} />}
     {showQuoteCards && <QuotesSection quotes={quotes} />}
     {showProductCards && <FeaturesSection intro={intro} />}
     {showPriceList && <PriceList productItems={productItems} />}
