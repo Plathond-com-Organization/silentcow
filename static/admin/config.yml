@@ -36,6 +36,7 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page" }
           - { label: "Contact Email ID", name: contactEmailId, widget: string }
           - { label: Title, name: title, widget: string }
+          - { label: Subheading, name: subheading, widget: string }
           - { label: Image, name: image, widget: image }
           - {
               label: Mainpitch,
@@ -49,7 +50,6 @@ collections:
           - { label: "Show Price List?", name: "showPriceList", widget: "boolean", default: true}
           - { label: "Show blog Posts?", name: "showBlogPosts", widget: "boolean", default: true}
           - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
           - { label: Description, name: description, widget: string }
           - {
               label: Main,
