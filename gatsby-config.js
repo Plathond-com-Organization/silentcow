@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/img/logo-cow.png",
+        logo: "./src/img/Silent-Cow-Home-Logo.png",
       },
     },
     {

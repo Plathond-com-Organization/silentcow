@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import logo from "../img/logo-cow.png"
+import logo from "../img/Silent-Cow-Home-Logo.png"
 
 const Navbar = () => {
   const links = [
