@@ -2,11 +2,11 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: "Hello \U0001F44B, Welcome to \U0001F92B\U0001F404"
-showWhatCards: true
-showQuoteCards: true
-showProductCards: true
-showPriceList: true
-showBlogPosts: true
+showWhatCards: false
+showQuoteCards: false
+showProductCards: false
+showPriceList: false
+showBlogPosts: false
 image: /img/home-cover.JPG
 heading: 'LP: Heading'
 subheading: 'LP: Subheading'
