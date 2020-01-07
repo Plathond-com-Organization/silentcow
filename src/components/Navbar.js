@@ -5,6 +5,10 @@ import logo from "../img/Silent-Cow-Home-Logo.png"
 const Navbar = () => {
   const links = [
     {
+      name: "Home",
+      href: "/",
+    },
+    {
       name: "About",
       href: "/about",
     },
