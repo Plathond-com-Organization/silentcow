@@ -1,48 +1,7 @@
 ---
 title: 'PP TITLE: Our Products'
 image: /img/dsc_1014.jpg
-heading: 'PP HEADING: We love learning & problem solving.'
-description: >-
-  PP DESCRIPTION: Delivering a fine tuned method to solving a cube that’s fun
-  for the young & teaches professionals how to tackle the puzzles in their work
-  life.
-intro:
-  blurbs:
-    - image: /img/dsc_1026.jpg
-      text: >-
-        PP: BLURB 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum.
-    - image: /img/dsc_0925.jpg
-      text: >-
-        PP: BLURB 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum.
-    - image: /img/dsc_0878.jpg
-      text: >-
-        PP: BLURB 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum.
-    - image: /img/dsc_0929.jpg
-      text: >
-        PP: BLURB 4: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum.
-  heading: 'PP INTRO:Heading: What we offer'
-  description: >-
-    PP INTRO:Description: Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum.
+full_image: /img/dsc_0927.jpg
 productItems:
   - heading: 'PP PRODUCT: Heading 1: The dual Kit'
     description: |-
@@ -72,6 +31,28 @@ productItems:
       https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit-single?variant=13763653533741
     price: £9.99
     productImage: /img/singlekit.webp
+heading: 'PP HEADING: We love learning & problem solving.'
+description: >-
+  PP DESCRIPTION: Delivering a fine tuned method to solving a cube that’s fun
+  for the young & teaches professionals how to tackle the puzzles in their work
+  life.
+intro:
+  blurbs:
+    - image: /img/dsc_1026.jpg
+      text: 5 Level training program
+    - image: /img/dsc_0925.jpg
+      text: Problem solving workshops
+    - image: /img/dsc_0878.jpg
+      text: Speedcube training kits
+    - image: /img/dsc_0929.jpg
+      text: Cube Club in a box
+  heading: 'PP INTRO:Heading: What we offer'
+  description: >-
+    PP INTRO:Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum.
 main:
   heading: 'PP: Main Heading: Great coffee with no compromises'
   description: >-
@@ -102,7 +83,6 @@ testimonials:
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
       aliquip ex ea commodo consequat.
-full_image: /img/dsc_0927.jpg
 pricing:
   heading: 'PP: Pricing: Heading: Something'
   description: >-
