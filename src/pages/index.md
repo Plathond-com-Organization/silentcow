@@ -11,10 +11,10 @@ mainpitch:
     journey which means you will learn fast, improve fast and ultimately solve
     fast. 
 showWhatCards: true
-showQuoteCards: false
-showProductCards: false
-showPriceList: false
-showBlogPosts: false
+showQuoteCards: true
+showProductCards: true
+showPriceList: true
+showBlogPosts: true
 heading: 'LP: Heading'
 description: >-
   LP: Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
