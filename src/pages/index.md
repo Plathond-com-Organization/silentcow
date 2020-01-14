@@ -2,7 +2,7 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: Welcome.
-subheading: Learn how to speed cube with the 5 level training programme!
+subheading: 'Finally, you have found that beginners course you were looking for.'
 image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
