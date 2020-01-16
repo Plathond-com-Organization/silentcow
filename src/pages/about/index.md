@@ -11,17 +11,13 @@ quotes:
     quoteImage: /img/joshua.webp
   - name: 'David Plews, Founder'
     quote: >-
-      Whether you just want to do it once, you want to take up speed cuing as a
-      hobby and anything in between... The Silent Cow will guide you through the
-      journey.  I remember my first time solving the last layer with the
-      beginners’ method. From, what looked like an utter mess, appeared a solved
-      cube. It was magical to see.\
+      The solution to many problem is just a factor of your own ability to spot
+      the solution. If you think that solving cubes at speed is about memorising
+      algorithms - then I am afraid you have been misinformed.
 
-      \
 
-      Watch out for it when you get around to doing it. [Read more on Medium:
-      The beautiful
-      solve](https://medium.com/@thesilentcow/the-beautiful-solve-dea192b19d98)
+      Once you have the skills to unpick a problem - that's when you can
+      construct a solution.
     quoteImage: /img/dsc_1031.jpg
 ---
 ### Joshua Morris, Co-founder
