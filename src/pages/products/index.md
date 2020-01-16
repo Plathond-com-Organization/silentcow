@@ -47,7 +47,13 @@ intro:
         workplace it is well suited for any event where up to 20 people work
         together to solve a few challanges
     - image: /img/dsc_0925.jpg
-      text: Problem solving workshops
+      text: >-
+        Problem solving workshops
+
+        We deliver our fine tuned Problem Solving workshop as an educational
+        team building experience. Although this course was designed for the
+        workplace it is well suited for any event where up to 20 people work
+        together to solve a few challenges.
     - image: /img/dsc_0878.jpg
       text: Speedcube training kits
     - image: /img/dsc_0929.jpg
