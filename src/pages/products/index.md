@@ -54,7 +54,12 @@ intro:
         workplace it is well suited for any event where up to 20 people work
         together to solve a few challenges.
     - image: /img/dsc_0878.jpg
-      text: Speedcube training kits
+      text: >-
+        Speedcube training kits
+
+        We have a single or dual cube training kit that comes with a high
+        quality Silent Cow speedcube, a set of 5 achievement badges to track
+        your progress, a protective eco friendly box and some promo stickers.
     - image: /img/dsc_0929.jpg
       text: Cube Club in a box
   heading: 'PP INTRO:Heading: What we offer'
