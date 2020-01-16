@@ -9,14 +9,9 @@ image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
   description: >+
-    Our philosophy is to engage your muscle memory from the start of your cubing
-    journey which means you will learn fast, improve fast and ultimately solve
-    fast. We do this by starting at the very beginning. We will layer skill onto
-    skill as you work your way through the program.
-
-
-    Be patient, put in the work and you will be a sub 1 minute solver in no
-    time. Let us show you how.
+    The Silent Cow is a independent startup with the aim to change your
+    perception of what "difficult" is. Have a look around at what we do and get
+    in touch if you want to get involved.
 
 showWhatCards: false
 showQuoteCards: true
