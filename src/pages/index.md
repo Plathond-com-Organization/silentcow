@@ -2,7 +2,9 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: Welcome.
-subheading: 'Finally, you have found that beginners course you were looking for.'
+subheading: >-
+  "If you want to go behind the vale of speedcubing, this is where you need to
+  start.."
 image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
