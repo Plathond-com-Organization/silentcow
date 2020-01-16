@@ -39,7 +39,13 @@ description: >-
 intro:
   blurbs:
     - image: /img/dsc_1026.jpg
-      text: 5 Level training program
+      text: >-
+        5 Level training program
+
+        We deliver our fine tuned Problem Solving workshop as an educational
+        team building experience. Although this course was designed for the
+        workplace it is well suited for any event where up to 20 people work
+        together to solve a few challanges
     - image: /img/dsc_0925.jpg
       text: Problem solving workshops
     - image: /img/dsc_0878.jpg
