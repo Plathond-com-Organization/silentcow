@@ -42,10 +42,9 @@ intro:
       text: >-
         5 Level training program
 
-        We deliver our fine tuned Problem Solving workshop as an educational
-        team building experience. Although this course was designed for the
-        workplace it is well suited for any event where up to 20 people work
-        together to solve a few challanges
+        Our philosophy is to engage your muscle memory from the start of your
+        cubing journey which means you will learn fast, improve fast and
+        ultimately solve fast. 
     - image: /img/dsc_0925.jpg
       text: >-
         Problem solving workshops
