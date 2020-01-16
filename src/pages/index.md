@@ -14,7 +14,7 @@ mainpitch:
     in touch if you want to get involved.
 
 showWhatCards: false
-showQuoteCards: true
+showQuoteCards: false
 showProductCards: true
 showPriceList: true
 showBlogPosts: true
