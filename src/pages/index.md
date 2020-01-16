@@ -12,7 +12,7 @@ mainpitch:
     Our philosophy is to engage your muscle memory from the start of your cubing
     journey which means you will learn fast, improve fast and ultimately solve
     fast. 
-showWhatCards: true
+showWhatCards: false
 showQuoteCards: true
 showProductCards: true
 showPriceList: true
