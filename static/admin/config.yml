@@ -157,7 +157,7 @@ collections:
                     label: Blurbs,
                     name: blurbs,
                     widget: list,
-                    fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: text }],
+                    fields: [{ label: Image, name: image, widget: image }, { label: Text, name: text, widget: markdown }],
                   },
                 ],
             }
