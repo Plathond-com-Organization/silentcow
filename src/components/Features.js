@@ -10,7 +10,6 @@ const FeatureGrid = ({ gridItems }) => {
       {gridItems.map(item => (
         <div key={item.text} className="p-5 flex flex-col md:w-1/2">
           <PreviewCompatibleImage imageInfo={item}/>
-          <span className="mt-4">{item.text}</span>
           <span className="mt-4 markdown" dangerouslySetInnerHTML={{ __html: converter.makeHtml(item.text) }}></span>
         </div>
       ))}
