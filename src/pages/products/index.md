@@ -38,7 +38,7 @@ description: >-
   life.
 intro:
   blurbs:
-    - image: /img/dsc_1026.jpg
+    - image: /img/5-level-training-course.png
       heading: 5 Level training program
       text: >-
         Our philosophy is to engage your muscle memory from the start of your
