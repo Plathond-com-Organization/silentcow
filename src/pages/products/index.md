@@ -39,6 +39,7 @@ description: >-
 intro:
   blurbs:
     - image: /img/dsc_1026.jpg
+      heading: 'EMPTY'
       text: >-
         **5 Level training program**
 
@@ -47,6 +48,7 @@ intro:
         cubing journey which means you will learn fast, improve fast and
         ultimately solve fast.
     - image: /img/dsc_0925.jpg
+      heading: 'EMPTY'
       text: >-
         **Problem solving workshops**
 
@@ -56,6 +58,7 @@ intro:
         workplace it is well suited for any event where up to 20 people work
         together to solve a few challenges.
     - image: /img/dsc_0878.jpg
+      heading: 'EMPTY'
       text: >-
         **Speedcube training kits**
 
@@ -64,6 +67,7 @@ intro:
         quality Silent Cow speedcube, a set of 5 achievement badges to track
         your progress, a protective eco friendly box and some promo stickers.
     - image: /img/dsc_0929.jpg
+      heading: 'EMPTY'
       text: >-
         **Cube Club in a box**
 
