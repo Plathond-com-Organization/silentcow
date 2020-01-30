@@ -40,11 +40,11 @@ intro:
   blurbs:
     - image: /img/dsc_1026.jpg
       text: >-
-        __5 Level training program__
+        **5 Level training program**
 
         Our philosophy is to engage your muscle memory from the start of your
         cubing journey which means you will learn fast, improve fast and
-        ultimately solve fast. 
+        ultimately solve fast.
     - image: /img/dsc_0925.jpg
       text: >-
         Problem solving workshops
