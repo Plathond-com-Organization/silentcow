@@ -42,12 +42,14 @@ intro:
       text: >-
         **5 Level training program**
 
+
         Our philosophy is to engage your muscle memory from the start of your
         cubing journey which means you will learn fast, improve fast and
         ultimately solve fast.
     - image: /img/dsc_0925.jpg
       text: >-
-        Problem solving workshops
+        **Problem solving workshops**
+
 
         We deliver our fine tuned Problem Solving workshop as an educational
         team building experience. Although this course was designed for the
@@ -55,13 +57,20 @@ intro:
         together to solve a few challenges.
     - image: /img/dsc_0878.jpg
       text: >-
-        Speedcube training kits
+        **Speedcube training kits**
+
 
         We have a single or dual cube training kit that comes with a high
         quality Silent Cow speedcube, a set of 5 achievement badges to track
         your progress, a protective eco friendly box and some promo stickers.
     - image: /img/dsc_0929.jpg
-      text: Cube Club in a box
+      text: >-
+        **Cube Club in a box**
+
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi.
   heading: 'PP INTRO:Heading: What we offer'
   description: >-
     PP INTRO:Description: Lorem ipsum dolor sit amet, consectetur adipiscing
