@@ -57,7 +57,7 @@ intro:
         We have a single or dual cube training kit that comes with a high
         quality Silent Cow speedcube, a set of 5 achievement badges to track
         your progress, a protective eco friendly box and some promo stickers.
-    - image: /img/dsc_0929.jpg
+    - image: /img/43984753_196567621239119_8028306712178145775_n.jpg
       heading: Cube Club in a box
       text: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
