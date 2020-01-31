@@ -44,7 +44,7 @@ intro:
         Our philosophy is to engage your muscle memory from the start of your
         cubing journey which means you will learn fast, improve fast and
         ultimately solve fast.
-    - image: /img/dsc_0925.jpg
+    - image: /img/31452969077_320c3bbb16_k.jpg
       heading: Problem solving workshops
       text: >-
         We deliver our fine tuned Problem Solving workshop as an educational
