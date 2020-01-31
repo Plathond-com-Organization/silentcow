@@ -51,7 +51,7 @@ intro:
         team building experience. Although this course was designed for the
         workplace it is well suited for any event where up to 20 people work
         together to solve a few challenges.
-    - image: /img/dsc_0878.jpg
+    - image: /img/img_e9260.jpeg
       heading: Speedcube training kits
       text: >-
         We have a single or dual cube training kit that comes with a high
