@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="md:w-1/3 flex md:flex-col self-stretch justify-center md:justify-between items-end text-white text-5xl md:text-3xl">
           {social.map((obj, index) => (
             <a href={obj.link} target="_blank">
-              <i className="m-3 md:m-1 fab fa-" + {obj.icon}></i>
+              <i className={obj.icon}></i>
             </a>
           ))}
         </div>
