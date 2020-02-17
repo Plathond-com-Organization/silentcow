@@ -23,11 +23,11 @@ const Navbar = () => {
     {
       name: "Contact",
       href: "/contact",
-    },
-    {
-      name: "What We Do",
-      href: "/whatwedo",
-    },
+    }
+//     {
+//       name: "What We Do",
+//       href: "/whatwedo",
+//     }
   ]
 
   const [isNavToggle, toggleNavbar] = useState(false)
