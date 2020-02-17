@@ -7,6 +7,7 @@ const FeatureGrid = ({ gridItems }) => {
   const converter = new showdown.Converter()
   return (
     <div className="flex flex-wrap -mx-5">
+      <h4 className="text-4xl font-bold">What we can do for you</h4>
       {gridItems.map(item => (
         <div key={item.text} className="p-5 flex flex-col md:w-1/2">
           <h4 class="text-2xl font-bold">{item.heading}</h4>
