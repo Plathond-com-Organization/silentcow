@@ -8,11 +8,14 @@ subheading: >-
 image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
-  description: >+
-    The Silent Cow is a independent startup with the aim to change your
-    perception of what "difficult" is. Have a look around at what we do and get
-    in touch if you want to get involved.
+  description: >-
+    Cubing is making a comeback and we are here to serve as your introduction
+    the world of speed solving. Now, do not be alarmed. We have spent allot of
+    time to make an easy to follow course that will take you from zero to sub 2
+    minutes in about 2 weeks.
 
+
+    But there is more.. keep scrolling, we will not take much of your time.
 showWhatCards: false
 showQuoteCards: false
 showProductCards: true
