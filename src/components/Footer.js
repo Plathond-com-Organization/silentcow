@@ -4,6 +4,20 @@ import { Link } from "gatsby"
 import logo from "../img/logo.png"
 
 const Footer = () => {
+  const social = [
+    {
+      link: "https://www.facebook.com/SilentCowUK/",
+      platform: "facebook-square"
+    },
+    {
+      link: "https://instagram.com/thesilentcow/",
+      platform: "instagram"
+    },
+    {
+      link: "https://twitter.com/thesilentcow",
+      platform: "twitter-square"
+    }
+  ];
   const links = [
     {
       name: "Home",
@@ -13,10 +27,6 @@ const Footer = () => {
       name: "About",
       href: "/about",
     },
-//     {
-//       name: "Products",
-//       href: "/products",
-//     },
     {
       name: "Blog",
       href: "/blog",
@@ -25,11 +35,7 @@ const Footer = () => {
       name: "Contact",
       href: "/contact",
     }
-//     {
-//       name: "What We Do",
-//       href: "/WhatWeDo",
-//     },
-  ]
+  ];
   return (
     <footer className="bg-custom-darkgray py-20">
       <div className="container flex flex-col md:flex-row justify-between">
@@ -42,10 +48,11 @@ const Footer = () => {
         </div>
         <img src={logo} alt="Silent Cow" className="w-2/3 my-20 md:my-0 md:w-1/3 self-center h-full object-contain" />
         <div className="md:w-1/3 flex md:flex-col self-stretch justify-center md:justify-between items-end text-white text-5xl md:text-3xl">
-          <i className="m-3 md:m-1 fab fa-facebook-square"></i>
-          <i className="m-3 md:m-1 fab fa-instagram"></i>
-          <i className="m-3 md:m-1 fab fa-twitter-square"></i>
-          <i className="m-3 md:m-1 fab fa-vimeo"></i>
+          {social.map((obj, index) => (
+            <a href={obj.link} target="_blank">
+              <i className="m-3 md:m-1 fab fa-{obj.platform}"></i>
+            </a>
+          ))}
         </div>
       </div>
     </footer>
