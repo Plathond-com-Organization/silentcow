@@ -12,10 +12,10 @@ const Navbar = () => {
       name: "About",
       href: "/about",
     },
-    {
-      name: "Products",
-      href: "/products",
-    },
+//     {
+//       name: "Products",
+//       href: "/products",
+//     },
     {
       name: "Blog",
       href: "/blog",
