@@ -44,9 +44,6 @@ const FeaturesSection = ({ intro }) => {
   return (
     <section id="home-products" className="container flex flex-col pb-10">
       <Features gridItems={intro.blurbs} />
-//       <Link className="mt-5 btn self-center" to="/products">
-//         See all products
-//       </Link>
     </section>
   )
 }
