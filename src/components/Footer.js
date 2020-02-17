@@ -13,10 +13,10 @@ const Footer = () => {
       name: "About",
       href: "/about",
     },
-    {
-      name: "Products",
-      href: "/products",
-    },
+//     {
+//       name: "Products",
+//       href: "/products",
+//     },
     {
       name: "Blog",
       href: "/blog",
@@ -24,11 +24,11 @@ const Footer = () => {
     {
       name: "Contact",
       href: "/contact",
-    },
-    {
-      name: "What We Do",
-      href: "/WhatWeDo",
-    },
+    }
+//     {
+//       name: "What We Do",
+//       href: "/WhatWeDo",
+//     },
   ]
   return (
     <footer className="bg-custom-darkgray py-20">
