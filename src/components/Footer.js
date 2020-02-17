@@ -7,15 +7,15 @@ const Footer = () => {
   const social = [
     {
       link: "https://www.facebook.com/SilentCowUK/",
-      platform: "facebook-square"
+      icon: "facebook-square"
     },
     {
       link: "https://instagram.com/thesilentcow/",
-      platform: "instagram"
+      icon: "instagram"
     },
     {
       link: "https://twitter.com/thesilentcow",
-      platform: "twitter-square"
+      icon: "twitter-square"
     }
   ];
   const links = [
@@ -50,8 +50,7 @@ const Footer = () => {
         <div className="md:w-1/3 flex md:flex-col self-stretch justify-center md:justify-between items-end text-white text-5xl md:text-3xl">
           {social.map((obj, index) => (
             <a href={obj.link} target="_blank">
-              {obj}
-              <i className="m-3 md:m-1 fab fa-{obj.platform}"></i>
+              <i className=`m-3 md:m-1 fab fa-${obj.icon}`></i>
             </a>
           ))}
         </div>
