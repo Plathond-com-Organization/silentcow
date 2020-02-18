@@ -49,7 +49,8 @@ intro:
       text: >-
         Our philosophy is to engage your muscle memory from the start of your
         cubing journey which means you will learn fast, improve fast and
-        ultimately solve fast.
+        ultimately solve fast. Register here for your free training course:
+        <https://silentcow.eu>
     - image: /img/31452969077_320c3bbb16_k.jpg
       heading: Problem solving workshops
       text: >-
