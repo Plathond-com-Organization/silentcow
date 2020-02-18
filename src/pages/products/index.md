@@ -16,7 +16,7 @@ productItems:
     link: >-
       https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit?variant=13763565256749
     price: £14.99
-    productImage: /img/multikit.webp
+    productImage: /img/multikit.jpg
   - heading: 'PP PRODUCT: Heading 2: The single Kit'
     description: |-
       PP PRODUCT: Description 2: The single Kit
@@ -30,7 +30,7 @@ productItems:
     link: >-
       https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit-single?variant=13763653533741
     price: £9.99
-    productImage: /img/singlekit.webp
+    productImage: /img/singlekit.jpg
 heading: 'PP HEADING: We love learning & problem solving.'
 description: >-
   PP DESCRIPTION: Delivering a fine tuned method to solving a cube that’s fun
