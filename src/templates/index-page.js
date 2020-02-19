@@ -36,7 +36,7 @@ const MainPitchSection = ({ mainpitch }) => {
     <section id="home-intro" className="container leading-tight py-10">
       <div>
         <h4 className="text-4xl font-bold">{mainpitch.title}</h4>
-        <p className="mt-4 markdown" dangerouslySetInnerHTML={{ __html: converter.makeHtml(mainpitch.description) }}></p>
+        <span className="mt-4 markdown" dangerouslySetInnerHTML={{ __html: converter.makeHtml(mainpitch.description) }}></span>
       </div>
     </section>
   )
