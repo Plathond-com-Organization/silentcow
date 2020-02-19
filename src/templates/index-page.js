@@ -10,6 +10,7 @@ import Hero from "../components/misc/Hero"
 import { Quote } from "../templates/about-page"
 import { WhatCardItem } from "../templates/what-we-do"
 import { PriceList } from "../templates/product-page"
+import showdown from "showdown"
 
 const HeroSection = ({ image, title, subheading }) => {
   return (
@@ -30,6 +31,7 @@ const WhatsSection = ({ whats }) => {
 }
 
 const MainPitchSection = ({ mainpitch }) => {
+  const converter = new showdown.Converter()
   return (
     <section id="home-intro" className="container leading-tight py-10">
       <div>
