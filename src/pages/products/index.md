@@ -3,32 +3,26 @@ title: 'PP TITLE: Our Products'
 image: /img/dsc_1014.jpg
 full_image: /img/dsc_0927.jpg
 productItems:
-  - heading: 'PP PRODUCT: Heading 1: The dual Kit'
+  - heading: The Dual Cube Training Kit
     description: |-
-      PP PRODUCT: Description 1: 
-
       This Kit includes :
 
       * 2 x Silent Cow Cubes
       * 1 x Set Achievement Stickers
       * 1 x Protective Box
       * 1 x Set Promo Stickers
-    link: >-
-      https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit?variant=13763565256749
+    link: 'https://thesilentcow.pagexl.com/'
     price: £14.99
     productImage: /img/multikit.jpg
-  - heading: 'PP PRODUCT: Heading 2: The single Kit'
+  - heading: The Single Cube Training Kit
     description: |-
-      PP PRODUCT: Description 2: The single Kit
-
       This Kit Includes:
 
       * 1 x Silent Cow Cube
       * 1 x Set Achievement Stickers
       * 1 x Protective Box
       * 1 x Set Promo Stickers
-    link: >-
-      https://www.kewbz.co.uk/products/the-silent-cow-3x3-training-kit-single?variant=13763653533741
+    link: 'https://thesilentcow.pagexl.com/'
     price: £9.99
     productImage: /img/singlekit.jpg
 heading: 'PP HEADING: We love learning & problem solving.'
