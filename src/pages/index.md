@@ -8,9 +8,8 @@ mainpitch:
   title: You are in good hands
   description: >-
     Cubing is making a comeback and we are here to serve as your introduction
-    the world of speed solving. \
+    the world of speed solving. 
 
-    \
 
     Now, do not be alarmed. We have spent allot of time to make sure we can
     present an easy to follow course. We will take you from zero to sub 2
