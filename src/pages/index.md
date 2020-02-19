@@ -1,10 +1,8 @@
 ---
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
-title: Welcome.
-subheading: >-
-  "If you want to go behind the vale of speedcubing, this is where you need to
-  start.."
+title: 'Great, you found us! '
+subheading: "You can relax now. Your search for a simple cube tutorial is over. Keeping scrolling... \U0001F44B \U0001F92B \U0001F404"
 image: /img/home-cover.JPG
 mainpitch:
   title: You are in good hands
