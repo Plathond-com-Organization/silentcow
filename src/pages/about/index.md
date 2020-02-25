@@ -11,13 +11,9 @@ quotes:
     quoteImage: /img/joshua.webp
   - name: 'David Plews, Founder'
     quote: >-
-      The solution to many problem is just a factor of your own ability to spot
-      the solution. If you think that solving cubes at speed is about memorising
-      algorithms - then I am afraid you have been misinformed.
-
-
-      Once you have the skills to unpick a problem - that's when you can
-      construct a solution.
+      We aim to not only teach you to solve a cube - but to expand your
+      abilities for problem solving. Once you have the skills to unpick a
+      problem - that's when you can construct a solution.
     quoteImage: /img/dsc_1031.jpg
 ---
 ### Joshua Morris, Co-founder
