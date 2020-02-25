@@ -2,13 +2,13 @@
 templateKey: index-page
 contactEmailId: moo@silentcow.uk
 title: 'Great, you found us! '
-subheading: "You can relax now. Your search for a simple cube tutorial is over. Keeping scrolling... \U0001F44B \U0001F92B \U0001F404"
+subheading: "You can relax now. Your search for a simple cube tutorial is over.  \U0001F44B \U0001F92B \U0001F404"
 image: /img/home-cover.JPG
 mainpitch:
-  title: You are in good hands
+  title: We have been expecting you.
   description: >-
-    Cubing is making a comeback and we are here to serve as your introduction
-    the world of speed solving. 
+    Over the last few years cubing has made a comeback and we are here to serve
+    as your introduction the world of speed solving. 
 
 
     Now, do not be alarmed. We have spent allot of time to make sure we can
