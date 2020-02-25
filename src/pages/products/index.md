@@ -35,29 +35,39 @@ intro:
     - image: /img/img_e9260.jpeg
       heading: Speedcube training kits
       text: >-
-        We have a single or dual cube training kit that comes with a high
-        quality Silent Cow speedcube, a set of 5 achievement badges to track
-        your progress, a protective eco friendly box and some promo stickers.
+        We have 2 beginner speedcube training kits. Each training kit comes with
+        a high quality Silent Cow Speedcube, a set of 5 achievement badges to
+        track your progress, a protective eco friendly box and a set of cool
+        stickers. Choose from our single cube or dual cube kits.
     - image: /img/5-level-training-course.png
       heading: 5 Level training program
       text: >-
-        Our philosophy is to engage your muscle memory from the start of your
-        cubing journey which means you will learn fast, improve fast and
-        ultimately solve fast. Register here for your free training course:
-        <https://silentcow.eu>
+        Get ready for liftoff - register to get access to our comprehensive,
+        skills focused training course. Our philosophy is to engage your muscle
+        memory from the start of your cubing journey which means you will learn
+        fast, improve fast and ultimately solve fast. 
+
+
+        Register here for your free training course: <https://silentcow.eu>
     - image: /img/31452969077_320c3bbb16_k.jpg
       heading: Problem solving workshops
       text: >-
-        We deliver our fine tuned Problem Solving workshop as an educational
-        team building experience. Although this course was designed for the
-        workplace it is well suited for any event where up to 20 people work
-        together to solve a few challenges.
+        If you are looking for a unique team building activity then you are in
+        the right place. Kickstart your team with our Problem Solving workshop.
+        Designed for the workplace and very complementary to Agile and SCRUM
+        based workflows. The activity is well suited for any event where up to
+        20 people work together to solve a few cube based challenges.
+
+
+        Each participant comes away with a Silent Cow Single Training kit. We
+        can even customise the achievement badges to mark the occasion.
     - image: /img/43984753_196567621239119_8028306712178145775_n.jpg
       heading: Cube Club in a box
       text: >-
-        Want to start a Cube Club at your school or workplace. We got you
+        Want to start a Cube Club at your school or workplace? We got you
         covered. Unpack, register and you are off. We provide all the materials
-        you will need to host or participate in a fun self organised workshop.
+        you will need to host or participate in a fun self organised workshop or
+        ongoing Cube Club. 
   heading: 'PP INTRO:Heading: What we offer'
   description: >-
     PP INTRO:Description: Lorem ipsum dolor sit amet, consectetur adipiscing
