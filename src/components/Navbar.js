@@ -23,6 +23,10 @@ const Navbar = () => {
     {
       name: "Contact",
       href: "/contact",
+    },
+    {
+      name: "Buy now",
+      href: "https://www.kewbz.co.uk/search?type=product&q=NOT+tag%3A__gift+AND+the+silent+cow*",
     }
 //     {
 //       name: "What We Do",
