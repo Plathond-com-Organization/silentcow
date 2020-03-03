@@ -12,7 +12,7 @@ productItems:
       * 1 x Protective Box
       * 1 x Set Promo Stickers
     link: 'https://thesilentcow.pagexl.com/'
-    price: £14.99
+    price: 14.99
     productImage: /img/multikit.jpg
   - heading: The Single Cube Training Kit
     description: |-
@@ -23,7 +23,7 @@ productItems:
       * 1 x Protective Box
       * 1 x Set Promo Stickers
     link: 'https://thesilentcow.pagexl.com/'
-    price: £9.99
+    price: 9.99
     productImage: /img/singlekit.jpg
 heading: 'PP HEADING: We love learning & problem solving.'
 description: >-
