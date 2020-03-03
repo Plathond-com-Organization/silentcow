@@ -108,9 +108,7 @@ export const PriceList = ({ productItems }) => {
                 name={product.heading} 
                 image={product.productImage}
                 description={product.description}
-              >
-                Buy now ({product.price})
-              </Button>
+              ></Button>
             </div>
           </div>
         ))}
