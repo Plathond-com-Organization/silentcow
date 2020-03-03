@@ -137,7 +137,7 @@ collections:
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: ItemId, name: itemId, widget: string },
+                  { label: ProductId, name: productId, widget: string },
                   { label: Description, name: description, widget: markdown },
                   { label: Price, name: price, widget: string },
                   { label: Image, name: productImage, widget: image },

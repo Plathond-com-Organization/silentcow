@@ -102,7 +102,7 @@ export const PriceList = ({ productItems }) => {
               <span className="text-4xl font-bold">{product.heading}</span>
               <span className="my-3 markdown flex flex-col items-center" dangerouslySetInnerHTML={{ __html: converter.makeHtml(product.description) }}></span>
               <Button 
-                itemId={product.itemId}
+                productId={product.productId}
                 price={product.price}
                 url="/" 
                 name={product.heading} 
