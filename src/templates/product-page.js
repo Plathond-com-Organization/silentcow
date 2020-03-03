@@ -103,6 +103,14 @@ export const PriceList = ({ productItems }) => {
               <a className="btn-custom bg-custom-navyblue hover:shadow-lg" href={product.link}>
                 Purchase Now
               </a>
+              <button className="buy-button snipcart-add-item"
+                data-time-id="1"
+                data-item-price="9.99"
+                data-item-url="/"
+                data-item-name="The Silent Cow Single Cube Training Kit"
+              >
+                Buy now (£9.99)
+              </button>
             </div>
           </div>
         ))}
