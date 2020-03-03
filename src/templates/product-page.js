@@ -102,13 +102,13 @@ export const PriceList = ({ productItems }) => {
               <span className="my-3 markdown flex flex-col items-center" dangerouslySetInnerHTML={{ __html: converter.makeHtml(product.description) }}></span>
               <button className="buy-button btn-custom bg-custom-navyblue hover:shadow-lg snipcart-add-item"
                 data-item-id="1"
-                data-item-price="{product.price}"
+                data-item-price="{{product.price}}"
                 data-item-url="/"
-                data-item-name="{product.heading}"
-                data-item-image="{product.productImage.childImageSharp.fluid}"
-                data-item-description="{product.description}"
+                data-item-name="{{product.heading}}"
+                data-item-image="{{product.productImage.childImageSharp.fluid}}"
+                data-item-description="{{product.description}}"
               >
-                Buy now (£9.99)
+                Buy now ({{product.price}})
               </button>
             </div>
           </div>
