@@ -12,10 +12,10 @@ const Navbar = () => {
       name: "About",
       href: "/about",
     },
-//     {
-//       name: "Products",
-//       href: "/products",
-//     },
+    {
+      name: "Products",
+      href: "/products",
+    },
     {
       name: "Blog",
       href: "/blog",
@@ -23,11 +23,11 @@ const Navbar = () => {
     {
       name: "Contact",
       href: "/contact",
-    },
-    {
-      name: "Buy now",
-      href: "https://www.kewbz.co.uk/search?type=product&q=NOT+tag%3A__gift+AND+the+silent+cow*",
     }
+//     {
+//       name: "Buy now",
+//       href: "https://www.kewbz.co.uk/search?type=product&q=NOT+tag%3A__gift+AND+the+silent+cow*",
+//     }
 //     {
 //       name: "What We Do",
 //       href: "/whatwedo",
