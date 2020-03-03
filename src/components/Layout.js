@@ -22,6 +22,7 @@ const TemplateWrapper = ({ children }) => {
         <link rel="icon" type="image/png" href={`${withPrefix('/')}img/favicon-16x16.png`} sizes="16x16" />
 
         <link rel="mask-icon" href={`${withPrefix('/')}img/safari-pinned-tab.svg`} color="#ff4400" />
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.8/default/snipcart.css" />
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
@@ -32,6 +33,9 @@ const TemplateWrapper = ({ children }) => {
       <Navbar />
       <div>{children}</div>
       <Footer />
+      <div hidden id="snipcart" data-api-key="NjNkMDFiOWMtZWY3ZS00N2ZjLWJjZmMtZDNiYmM4ZDIzNmVkNjM3MTg4MzE4MTU0OTQwMzU2
+"></div>
+      <script src="https://cdn.snipcart.com/themes/v3.0.8/default/snipcart.js"></script>
     </div>
   )
 }
