@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import showdown from "showdown"
 
 import Layout from "../components/Layout"
+import Button from "../components/Button"
 import Features from "../components/Features"
 import Testimonials from "../components/Testimonials"
 import Hero from "../components/misc/Hero"
@@ -100,16 +101,16 @@ export const PriceList = ({ productItems }) => {
               <span className="text-5xl text-custom-navyblue font-bold">{product.price}</span>
               <span className="text-4xl font-bold">{product.heading}</span>
               <span className="my-3 markdown flex flex-col items-center" dangerouslySetInnerHTML={{ __html: converter.makeHtml(product.description) }}></span>
-              <button className="buy-button btn-custom bg-custom-navyblue hover:shadow-lg snipcart-add-item"
-                data-item-id="1"
-                data-item-price="{{product.price}}"
-                data-item-url="/"
-                data-item-name="{{product.heading}}"
-                data-item-image="{{product.productImage.childImageSharp.fluid}}"
-                data-item-description="{{product.description}}"
+              <Button 
+                id={product.id}
+                price={product.price}
+                url="/" 
+                name={product.heading} 
+                image={product.productImage.childImageSharp.fluid}
+                description={product.description}
               >
-                Buy now ({{product.price}})
-              </button>
+                Buy now ({product.price})
+              </Button>
             </div>
           </div>
         ))}
