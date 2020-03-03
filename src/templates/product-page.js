@@ -100,14 +100,13 @@ export const PriceList = ({ productItems }) => {
               <span className="text-5xl text-custom-navyblue font-bold">{product.price}</span>
               <span className="text-4xl font-bold">{product.heading}</span>
               <span className="my-3 markdown flex flex-col items-center" dangerouslySetInnerHTML={{ __html: converter.makeHtml(product.description) }}></span>
-              <a className="btn-custom bg-custom-navyblue hover:shadow-lg" href={product.link}>
-                Purchase Now
-              </a>
-              <button className="buy-button snipcart-add-item"
-                data-time-id="1"
+              <button className="buy-button btn-custom bg-custom-navyblue hover:shadow-lg snipcart-add-item"
+                data-item-id="1"
                 data-item-price="9.99"
                 data-item-url="/"
                 data-item-name="The Silent Cow Single Cube Training Kit"
+                data-item-image="{product.productImage.childImageSharp.fluid}"
+                data-item-description="Each kit includes: 1 x Silent Cow Cube, 1 x Set Achievement Badges, 1 x Protective Box, 1 x Set Promo Stickers"
               >
                 Buy now (£9.99)
               </button>
