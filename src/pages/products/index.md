@@ -14,7 +14,7 @@ productItems:
     link: 'https://thesilentcow.pagexl.com/'
     price: 14.99
     productImage: /img/multikit.jpg
-    id: 2
+    itemId: 2
   - heading: The Single Cube Training Kit
     description: |-
       This Kit Includes:
@@ -25,7 +25,7 @@ productItems:
       * 1 x Set Promo Stickers
     link: 'https://thesilentcow.pagexl.com/'
     price: 9.99
-    id: 1
+    itemId: 1
     productImage: /img/singlekit.jpg
 heading: 'PP HEADING: We love learning & problem solving.'
 description: >-
