@@ -101,7 +101,6 @@ export const PriceList = ({ productItems }) => {
               <span className="text-5xl text-custom-navyblue font-bold">{product.price}</span>
               <span className="text-4xl font-bold">{product.heading}</span>
               <span className="my-3 markdown flex flex-col items-center" dangerouslySetInnerHTML={{ __html: converter.makeHtml(product.description) }}></span>
-              {product}
               <Button 
                 productId={product.productId}
                 price={product.price}
