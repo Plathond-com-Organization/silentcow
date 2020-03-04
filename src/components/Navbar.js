@@ -57,7 +57,7 @@ const Navbar = () => {
           ))}
           <button className="py-3 my-2 md:my-0 mx-4 snipcart-checkout">
             <span className="snipcart-total-price">£0.00</span>
-            (<span className="snipcart-item-count">0</span>)
+            (<span className="snipcart-items-count">0</span>)
           </button>
         </div>
       </nav>
