@@ -8,7 +8,6 @@ const Button = ({productId, price, url, name, image, description}) => {
         data-item-price={price}
         data-item-url={url}
         data-item-name={name}
-        data-item-image={image}
         data-item-description={description}
         >
         Buy now (£{price})

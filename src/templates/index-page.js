@@ -183,6 +183,7 @@ export const pageQuery = graphql`
           description
         }
         productItems {
+          productId
           heading
           description
           price
