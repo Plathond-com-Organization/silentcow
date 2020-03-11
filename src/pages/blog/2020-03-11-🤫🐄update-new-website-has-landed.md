@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "\U0001F92B\U0001F404Update: New website has landed"
+title: 'Silent Cow Update: New website has landed'
 description: >-
   The new website is here.  Have a little nosy around. You can even purchase our
   training kits directly from us.
