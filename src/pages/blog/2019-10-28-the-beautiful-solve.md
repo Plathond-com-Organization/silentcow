@@ -3,16 +3,22 @@ templateKey: blog-post
 title: The Beautiful Solve
 date: 2019-10-28T16:07:09.229Z
 description: >-
-  TL;DR
-
-  There is a big difference between solving a cube and speedcubing. The aim here
-  is to let you experience your body on autopilot.
+  .... Your brain is freaking out as you navigate and experience all sorts of
+  new things. From finger movements, hand placements, color patterns,
+  3-dimensional perspectives and a new vocabulary all combine into an utter
+  cognitive overload.
 featuredpost: true
 featuredimage: /img/dsc_0929.jpg
 tags:
-  - ''
+  - beginner learn2solve david
 ---
+## TL;DR
 
+There is a big difference between solving a cube and speed cubing. The aim here is to let you experience your body on autopilot.
+
+
+
+## It has it's challenges
 
 When you first commit to acquiring the skills to solve a 3x3 cube — you constantly hit barriers that you need to overcome.
 
