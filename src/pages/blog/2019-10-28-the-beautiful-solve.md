@@ -6,7 +6,7 @@ description: Description
 featuredpost: true
 featuredimage: /img/dsc_0929.jpg
 tags:
-  - tag1 tag2
+  - ''
 ---
 When you first commit to acquiring the skills to solve a 3x3 cube — you constantly hit barriers that you need to overcome.
 
