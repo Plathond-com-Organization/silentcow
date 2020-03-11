@@ -14,4 +14,4 @@ tags:
 
 Hopefully a much cleaner and less confusing experience this time round. Thanks to an awesome little things called SnipCart - we can even sell direct on the site with minimal integration issues.
 
-<https://snipcart.com/>
+<a href="https://snipcart.com/" target="_blank">snipcart.com</a>
