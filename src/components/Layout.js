@@ -33,8 +33,7 @@ const TemplateWrapper = ({ children }) => {
       <Navbar />
       <div>{children}</div>
       <Footer />
-      <div hidden id="snipcart" data-api-key="NjNkMDFiOWMtZWY3ZS00N2ZjLWJjZmMtZDNiYmM4ZDIzNmVkNjM3MTg4MzE4MTU0OTQwMzU2
-"></div>
+      <div hidden id="snipcart" data-api-key="NDg0NDY0ZDYtYTlhNy00YTgzLWI4ZGQtMzE4MmRjNjZlNDQ1NjM3MTg4MzE4MTU0OTQwMzU2"></div>
       <script src="https://cdn.snipcart.com/themes/v3.0.8/default/snipcart.js"></script>
     </div>
   )
