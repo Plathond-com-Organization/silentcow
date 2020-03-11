@@ -13,7 +13,6 @@ export const BlogPostTemplate = ({ content, contentComponent, description, tags,
       {helmet || ""}
       <div className="container pt-10 pb-16">
         <h1 className="text-5xl font-bold">{title}</h1>
-        <p className="my-3">{description}</p>
         <PostContent content={content} />
         {tags && tags.length ? (
           <div style={{ marginTop: `4rem` }}>
