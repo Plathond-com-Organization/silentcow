@@ -121,7 +121,7 @@ pricing:
       plan: 'PP: PLAN 2: Plan'
       price: 'PP: PLAN 2: Price'
 templateKey: product-page
-showMainHero: true
+showMainHero: false
 showProductSectionOne: true
 showProductSectionTwo: true
 showTestimonials: false
