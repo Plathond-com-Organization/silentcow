@@ -123,7 +123,7 @@ pricing:
 templateKey: product-page
 showMainHero: false
 showProductSectionOne: true
-showProductSectionTwo: true
+showProductSectionTwo: false
 showTestimonials: false
 showPriceList: true
 ---
