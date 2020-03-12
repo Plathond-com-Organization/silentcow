@@ -1,7 +1,7 @@
 ---
-title: 'PP TITLE: Our Products'
-image: /img/dsc_1014.jpg
-full_image: /img/dsc_0927.jpg
+title: Our Products
+image: /img/img_2258.jpeg
+full_image: /img/img_e9260.jpeg
 productItems:
   - heading: The Dual Cube Training Kit
     description: |-
@@ -13,8 +13,8 @@ productItems:
       * 1 x Set Promo Stickers
     link: 'https://thesilentcow.pagexl.com/'
     price: 14.99
-    productImage: /img/multikit.jpg
     productId: 2
+    productImage: /img/multikit.jpg
   - heading: The Single Cube Training Kit
     description: |-
       This Kit Includes:
@@ -27,11 +27,8 @@ productItems:
     price: 9.99
     productId: 1
     productImage: /img/singlekit.jpg
-heading: 'PP HEADING: We love learning & problem solving.'
-description: >-
-  PP DESCRIPTION: Delivering a fine tuned method to solving a cube that’s fun
-  for the young & teaches professionals how to tackle the puzzles in their work
-  life.
+heading: ' '
+description: ' '
 intro:
   blurbs:
     - image: /img/img_e9260.jpeg
@@ -127,7 +124,7 @@ templateKey: product-page
 showMainHero: true
 showProductSectionOne: true
 showProductSectionTwo: true
-showTestimonials: true
+showTestimonials: false
 showPriceList: true
 ---
 
