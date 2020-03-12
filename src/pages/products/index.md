@@ -38,21 +38,6 @@ intro:
         a high quality Silent Cow Speedcube, a set of 5 achievement badges to
         track your progress, a protective eco friendly box and a set of cool
         stickers. Choose from our single cube or dual cube kits.
-
-
-        <button class="buy-button btn-custom hover:shadow-lg snipcart-add-item"
-        data-item-id="2" data-item-price="14.99" data-item-url="/"
-        data-item-name="The Dual Cube Training Kit" data-item-description="This
-        Kit includes :
-
-
-        * 2 x Silent Cow Cubes
-
-        * 1 x Set Achievement Stickers
-
-        * 1 x Protective Box
-
-        * 1 x Set Promo Stickers">Buy now (£14.99)</button>
     - image: /img/5-level-training-course.png
       heading: 5 Level training program
       text: >-
