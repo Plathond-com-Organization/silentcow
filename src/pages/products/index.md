@@ -78,7 +78,7 @@ intro:
         Participant" data-item-description="Each participant will receive a
         Single Cube Training Kit:* 1 x Silent Cow Cubes * 1 x Set Achievement
         Stickers * 1 x Protective Box * 1 x Set Promo Stickers">Buy now (£<!--
-        -->34.99<!-- -->)</button>
+        -->34.99 pp<!-- -->)</button>
     - image: /img/43984753_196567621239119_8028306712178145775_n.jpg
       heading: Cube Club in a box
       text: >-
