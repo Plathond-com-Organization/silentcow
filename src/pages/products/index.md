@@ -64,15 +64,21 @@ intro:
     - image: /img/31452969077_320c3bbb16_k.jpg
       heading: Problem solving workshops
       text: >-
-        If you are looking for a unique team building activity then you are in
-        the right place. Kickstart your team with our Problem Solving workshop.
-        Designed for the workplace and very complementary to Agile and SCRUM
-        based workflows. The activity is well suited for any event where up to
-        20 people work together to solve a few cube based challenges.
+        Kickstart your team with our Problem Solving workshop. Designed for the
+        workplace and very complementary to Agile/SCRUM. We need 12 - 20 people
 
 
-        Each participant comes away with a Silent Cow Single Training kit. We
-        can even customise the achievement badges to mark the occasion.
+        Each participant will receive a Silent Cow Single Cube Training kit
+        worth £9.99.
+
+
+        <button class="buy-button btn-custom hover:shadow-lg snipcart-add-item"
+        data-item-id="55" data-item-price="34.99" data-item-min-quantity="12"
+        data-item-url="/" data-item-name="Problem Solving Workshop Per
+        Participant" data-item-description="Each participant will receive a
+        Single Cube Training Kit:* 1 x Silent Cow Cubes * 1 x Set Achievement
+        Stickers * 1 x Protective Box * 1 x Set Promo Stickers">Buy now (£<!--
+        -->34.99<!-- -->)</button>
     - image: /img/43984753_196567621239119_8028306712178145775_n.jpg
       heading: Cube Club in a box
       text: >-
