@@ -3,9 +3,9 @@ title: Our Products
 image: /img/img_2258.jpeg
 full_image: /img/img_e9260.jpeg
 productItems:
-  - heading: The Dual Cube Training Kit
+  - heading: Dual Cube Kit
     description: |-
-      This Kit includes :
+      This Training Kit includes:
 
       * 2 x Silent Cow Cubes
       * 1 x Set Achievement Stickers
@@ -15,9 +15,9 @@ productItems:
     price: 14.99
     productId: '20'
     productImage: /img/multikit.jpg
-  - heading: The Single Cube Training Kit
+  - heading: Single Cube Kit
     description: |-
-      This Kit Includes:
+      This Training Kit Includes:
 
       * 1 x Silent Cow Cube
       * 1 x Set Achievement Stickers
@@ -42,15 +42,15 @@ intro:
 
         <button class="buy-button btn-custom hover:shadow-lg snipcart-add-item"
         data-item-id="30" data-item-price="14.99" data-item-url="/"
-        data-item-name="The Dual Cube Training Kit" data-item-description="This
-        Kit includes :* 2 x Silent Cow Cubes * 1 x Set Achievement Stickers * 1
-        x Protective Box * 1 x Set Promo Stickers">Buy now (£<!-- -->14.99<!--
-        -->)</button><button class="buy-button btn-custom hover:shadow-lg
-        snipcart-add-item" data-item-id="40" data-item-price="9.99"
-        data-item-url="/" data-item-name="The Single Cube Training Kit"
-        data-item-description="This Kit includes :* 1 x Silent Cow Cubes * 1 x
-        Set Achievement Stickers * 1 x Protective Box * 1 x Set Promo
-        Stickers">Buy now (£<!-- -->9.99<!-- -->)</button>
+        data-item-name="Dual Cube Training Kit" data-item-description="This
+        Training Kit includes :* 2 x Silent Cow Cubes * 1 x Set Achievement
+        Stickers * 1 x Protective Box * 1 x Set Promo Stickers">Buy now (£<!--
+        -->14.99<!-- -->)</button><button class="buy-button btn-custom
+        hover:shadow-lg snipcart-add-item" data-item-id="40"
+        data-item-price="9.99" data-item-url="/" data-item-name="Single Cube
+        Training Kit" data-item-description="This Training Kit includes :* 1 x
+        Silent Cow Cubes * 1 x Set Achievement Stickers * 1 x Protective Box * 1
+        x Set Promo Stickers">Buy now (£<!-- -->9.99<!-- -->)</button>
     - image: /img/5-level-training-course.png
       heading: 5 Level training program
       text: >-
