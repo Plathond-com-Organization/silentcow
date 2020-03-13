@@ -13,7 +13,7 @@ productItems:
       * 1 x Set Promo Stickers
     link: 'https://thesilentcow.pagexl.com/'
     price: 14.99
-    productId: 2
+    productId: '20'
     productImage: /img/multikit.jpg
   - heading: The Single Cube Training Kit
     description: |-
@@ -25,7 +25,7 @@ productItems:
       * 1 x Set Promo Stickers
     link: 'https://thesilentcow.pagexl.com/'
     price: 9.99
-    productId: 1
+    productId: '10'
     productImage: /img/singlekit.jpg
 heading: ' '
 description: ' '
@@ -41,12 +41,12 @@ intro:
 
 
         <button class="buy-button btn-custom hover:shadow-lg snipcart-add-item"
-        data-item-id="3" data-item-price="14.99" data-item-url="/"
+        data-item-id="30" data-item-price="14.99" data-item-url="/"
         data-item-name="The Dual Cube Training Kit" data-item-description="This
         Kit includes :* 2 x Silent Cow Cubes * 1 x Set Achievement Stickers * 1
         x Protective Box * 1 x Set Promo Stickers">Buy now (£<!-- -->14.99<!--
         -->)</button><button class="buy-button btn-custom hover:shadow-lg
-        snipcart-add-item" data-item-id="4" data-item-price="9.99"
+        snipcart-add-item" data-item-id="40" data-item-price="9.99"
         data-item-url="/" data-item-name="The Single Cube Training Kit"
         data-item-description="This Kit includes :* 1 x Silent Cow Cubes * 1 x
         Set Achievement Stickers * 1 x Protective Box * 1 x Set Promo
@@ -73,7 +73,7 @@ intro:
 
 
         <button class="buy-button btn-custom hover:shadow-lg snipcart-add-item"
-        data-item-id="55" data-item-price="34.99" data-item-min-quantity="12"
+        data-item-id="50" data-item-price="34.99" data-item-min-quantity="12"
         data-item-url="/" data-item-name="Problem Solving Workshop Per
         Participant" data-item-description="Each participant will receive a
         Single Cube Training Kit:* 1 x Silent Cow Cubes * 1 x Set Achievement
