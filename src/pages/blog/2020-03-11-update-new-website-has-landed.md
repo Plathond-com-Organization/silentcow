@@ -10,7 +10,6 @@ featuredimage: /img/og-image.png
 tags:
   - website snipcart
 ---
-![The Silent Cow](/img/og-image.png "The Silent Cow")
 
 # The new website is here..
 

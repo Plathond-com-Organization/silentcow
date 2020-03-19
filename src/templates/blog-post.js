@@ -1,18 +1,29 @@
 import React from "react"
-import PropTypes from "prop-types"
-import { kebabCase } from "lodash"
-import Helmet from "react-helmet"
 import { graphql, Link } from "gatsby"
+import Img from "gatsby-image"
+import Helmet from "react-helmet"
+import { kebabCase } from "lodash"
 import Layout from "../components/Layout"
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent } from "../components/Content"
 
-export const BlogPostTemplate = ({ content, contentComponent, description, tags, title, helmet }) => {
+export const BlogPostTemplate = ({ content, contentComponent, description, tags, title, helmet, featuredimage }) => {
+  console.log(featuredimage)
   const PostContent = contentComponent || Content
   return (
     <section>
       {helmet || ""}
       <div className="container pt-10 pb-16">
-        <h1 className="text-5xl font-bold">{title}</h1>
+        <h1 className="text-5xl font-bold leading-tight">{title}</h1>
+        <div className="my-10">
+          {featuredimage && (
+            <Img
+              fluid={featuredimage.childImageSharp.fluid}
+              style={{
+                maxWidth: featuredimage.childImageSharp.fluid.presentationWidth,
+              }}
+            />
+          )}
+        </div>
         <PostContent content={content} />
         {tags && tags.length ? (
           <div style={{ marginTop: `4rem` }}>
@@ -29,14 +40,6 @@ export const BlogPostTemplate = ({ content, contentComponent, description, tags,
       </div>
     </section>
   )
-}
-
-BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
 }
 
 const BlogPost = ({ data }) => {
@@ -56,15 +59,10 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   )
-}
-
-BlogPost.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
 }
 
 export default BlogPost
@@ -79,6 +77,14 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+              presentationWidth
+            }
+          }
+        }
       }
     }
   }
