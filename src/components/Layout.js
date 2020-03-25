@@ -35,15 +35,7 @@ const TemplateWrapper = ({ children }) => {
       <Footer />
       <div hidden id="snipcart" data-api-key="NDg0NDY0ZDYtYTlhNy00YTgzLWI4ZGQtMzE4MmRjNjZlNDQ1NjM3MTg4MzE4MTU0OTQwMzU2"></div>
       <script src="https://cdn.snipcart.com/themes/v3.0.8/default/snipcart.js"></script>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161802690-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'UA-161802690-1');
-      </script>
 
     </div>
   )
